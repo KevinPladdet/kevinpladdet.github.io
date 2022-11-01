@@ -142,11 +142,6 @@ font-size: 27px;
     height: auto;
   }
 
-  #textResizeThree
-  {
-    /* width: 50%; */
-  }
-
   #resizeImage
   {
     width:100%;
@@ -267,6 +262,13 @@ font-size: 27px;
   }
 
 @media (max-width:450px){
+  .aboutMeInfo{
+    font-size:larger !important;
+  }
+
+  .textColumn{
+    margin-left: 10px !important;
+  }
 }
 
 @media (max-width:1024px){
