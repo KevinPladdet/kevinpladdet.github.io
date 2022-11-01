@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">Featured Products</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageSocCar()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="textColumn container text-center">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/qlAphk_r36A" title="Projects Gameplay" allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="textResize" class="textColumn container text-center">
+    <div class="row">
+      <div class="col text-center p-0">
+        <div class="col text-center">
+          <h3 id="soccarInfo"> <span style="font-weight:normal">
+              SocCar is a 3D game where you play soccer with cars. 
+              You can play a match with your friend in split screen mode or practice alone in the Training mode. 
+              You can also boost yourself to gain more speed and crash into your opponent or the ball.
+              <br></br>
+              While making this project I learned how to make a score system, a car controller and how to set up split screen.
+              <br></br>
+              SocCar took me a month to make in Unity and you can play it on Windows and Mac. 
+              <br></br>
+              <i>(SocCar is still in development)</i>
+              <br></br>
+              Click <a href="/gamebuilds/WebGL SocCar/SocCarWeb.html"><i>here</i></a> to try SocCar out for yourself. </span>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>

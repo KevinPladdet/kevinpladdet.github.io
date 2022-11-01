@@ -1,0 +1,102 @@
+function ChangeLanguage()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("aboutMe").innerHTML  = "<span style=\"font-weight:normal\"> I'm Kevin Pladdet, I’m 17 years old and from the Netherlands. I’m currently following an education about Software Development where I’m learning how to code and how to make games/websites.<br></br>I’m very interested when it comes to game development, I love making games from scratch and seeing how it develops towards a complete game. On this website you can find some projects I’ve made along the way, and you can play them if you’d like.";
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("aboutMe").innerHTML = "<span style=\"font-weight:normal\"> Mijn naam is Kevin Pladdet. Ik ben 17 jaar oud en ik kom uit Nederland. Op dit moment volg ik de opleiding Software Development, waar ik leer coderen en games/websites te maken. <br> </br> Ik ben erg geïnteresseerd als het gaat om game development. Ik vind het leuk om games vanaf het begin te maken en te zien hoe het ontwikkelt naar een complete game. Op deze website kan je allerlei projecten zien (en spelen) die ik heb gemaakt.";
+    }
+}
+
+function ChangeLanguageImpact()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("aboutMe").innerHTML = '<span style=\"font-weight:normal\"> Impact is a 3D platformer where your goal is to get the best time possible. There is a timer in the top left and multiple checkpoints to help you along the way. <br></br> While making this project I learned how to design maps and how to use ProBuilder + the Unity Terrain Editor. <br></br> Impact took me 4 months to make in Unity (few hours per week) and you can play it on Windows. <br></br> Click <a href="https://itskevin183.itch.io/impact"><i>here</i></a> to try Impact out for yourself.';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("aboutMe").innerHTML = '<span style=\"font-weight:normal\"> Impact is een 3D platformer met als doel om de snelste tijd te halen. Linksboven in het scherm is een timer en er zijn meerdere checkpoints die je helpen het level te halen. <br></br> Terwijl ik dit project maakte leerde ik ProBuilder en de Unity Terrain Editor te gebruiken. <br></br> Impact duurde me 4 maanden om te maken in Unity (paar uur per week) en je kan het spelen op Windows. <br></br> Klik <a href="https://itskevin183.itch.io/impact"><i>hier</i></a> om Impact te spelen.';
+    }
+}
+
+function ChangeLanguageSocCar()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("soccarInfo").innerHTML = '<span style=\"font-weight:normal\"> SocCar is a 3D game where you play soccer with cars. You can play a match with your friend in split screen mode or practice alone in the Training mode. You can also boost yourself to gain more speed and crash into your opponent or the ball.<br></br>While making this project I learned how to make a score system, a car controller and how to set up split screen.<br></br>SocCar took me a month to make in Unity and you can play it on Windows and Mac.<br></br><i>(SocCar is still in development)</i><br></br>Click <a href="/gamebuilds/WebGL SocCar/SocCarWeb.html"><i>here</i></a> to try SocCar out for yourself.';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("soccarInfo").innerHTML = '<span style=\"font-weight:normal\"> SocCar is een 3D spel waarin je voetbal speelt met auto’s. Je kan dit spel alleen spelen in de training mode of tegen je vrienden met split screen. Je kan jezelf ook boosten om meer snelheid te krijgen en tegen je tegenstander of de bal te botsen.<br></br>Tijdens het maken van dit project heb ik geleerd hoe ik een scoresysteem, een autocontroller en split screen maak.<br></br>SocCar kostte me een maand om te maken in Unity en je kan het spelen op Windows en Mac.<br></br><i>(SocCar is nogsteeds in development)</i><br></br>Klik <a href="/gamebuilds/WebGL SocCar/SocCarWeb.html"><i>hier</i></a> om SocCar te spelen.';
+    }
+}
+
+function ChangeLanguageTanks()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("tanksInfo").innerHTML = '<span style=\"font-weight:normal\"> Tanks 2D is a simple game where you can have tank fights with your friend. There is a fun map and a powerup in the middle that will double your bullet speed. You can also shoot yourself to get launched in the opposite way, this can get you from one side of the map to the other in seconds.<br></br>While making this project I learned how to make 2D movement, a shooting system and a powerup.<br></br>Tanks 2D took me a month to make in Unity and you can play it on Windows and Mac.<br></br>Click <a href="/gamebuilds/tanks2d/tanks2D.html"><i>here</i></a> to try Tanks 2D out for yourself.';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("tanksInfo").innerHTML = '<span style=\"font-weight:normal\"> Tanks 2D is een eenvoudig spel waarin je tankgevechten kan hebben met je vrienden. Er is een leuke map met een powerup in het midden die je kogel snelheid verdubbelt. Je kan ook op jezelf schieten om in de tegenovergestelde richting te worden gelanceerd. Hierdoor kan je in seconden van de ene naar de andere kant van de map gaan.<br></br>Tijdens het maken van dit project heb ik geleerd hoe ik 2D beweging, een schietsysteem en een powerup maak.<br></br>Tanks 2D kostte me een maand om te maken in Unity en je kan het op Windows en Mac spelen.<br></br>Klik <a href="/gamebuilds/tanks2d/tanks2D.html"><i>hier</i></a> om Tanks 2D te spelen.';
+    }
+}
+
+function ChangeLanguageSkills()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("education").innerHTML = '<span style=\"font-weight:normal\"> <i class="fa-regular fa-file-lines"></i> Education';
+        document.getElementById("codingText").innerHTML = '<i class="fa-solid fa-code"></i> Coding';
+        document.getElementById("skillsText").innerHTML = '<i class="fa-solid fa-gears"></i> Skills';
+        document.getElementById("sdEducation").innerHTML = '<span style="font-weight:normal; font-size:32px;"> <u> Currently following a four year education of Software Development in the Netherlands </u>'
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("education").innerHTML = '<span style=\"font-weight:normal\"> <i class="fa-regular fa-file-lines"></i> Educatie';
+        document.getElementById("sdEducation").innerHTML = '<span style="font-weight:normal; font-size:32px;"> <u> Op dit moment volg ik een vierjarige opleiding Software Development in Nederland </u>' 
+        document.getElementById("educationYear").innerHTML = '2021 - 2025'
+        document.getElementById("codingText").innerHTML = '<i class="fa-solid fa-code"></i> Coderen';
+        document.getElementById("skillsText").innerHTML = '<i class="fa-solid fa-gears"></i> Vaardigheden';
+    }
+}
+
+function ChangeLanguageFeatured()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("tanksInfo").innerHTML = '<span style=\"font-weight:normal\"> Tanks 2D is a simple game where you can have tank fights with your friend. There is a fun map and a powerup in the middle that will double your bullet speed. You can also shoot yourself to get launched in the opposite way, this can get you from one side of the map to the other in seconds.<br></br>While making this project I learned how to make 2D movement, a shooting system and a powerup.<br></br>Tanks 2D took me a month to make in Unity and you can play it on Windows and Mac.<br></br>Click <a href="/gamebuilds/tanks2d/tanks2D.html"><i>here</i></a> to try Tanks 2D out for yourself.';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("tanksInfo").innerHTML = '<span style=\"font-weight:normal\"> Tanks 2D is een eenvoudig spel waarin je tankgevechten kan hebben met je vrienden. Er is een leuke map met een powerup in het midden die je kogel snelheid verdubbelt. Je kan ook op jezelf schieten om in de tegenovergestelde richting te worden gelanceerd. Hierdoor kan je in seconden van de ene naar de andere kant van de map gaan.<br></br>Tijdens het maken van dit project heb ik geleerd hoe ik 2D beweging, een schietsysteem en een powerup maak.<br></br>Tanks 2D kostte me een maand om te maken in Unity en je kan het op Windows en Mac spelen.<br></br>Klik <a href="/gamebuilds/tanks2d/tanks2D.html"><i>hier</i></a> om Tanks 2D te spelen.';
+    }
+}
