@@ -13,13 +13,13 @@ body
 .textColumnText
 {
   border: 3px solid rgb(0, 0, 0);
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .textColumnImage
 {
   border: 3px solid rgb(0, 0, 0);
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 #aboutMe
@@ -262,18 +262,63 @@ font-size: 27px;
   }
 
 @media (max-width:450px){
-  .aboutMeInfo{
+  .aboutMeInfo
+  {
     font-size:larger !important;
   }
 
-  .textColumn{
-    margin-left: 10px !important;
+  .textColumn
+  {
+    width: 96% !important;
+    
+  }
+
+  .textColumnImage
+  {
+    width: 94% !important;
+    margin-left: 9.5px;
+  }
+
+  .textColumnText
+  {
+    width: 94% !important;
+    margin-left: 6px;
+  }
+
+  .buttonSpacing
+  {
+    margin-bottom: 20px !important;
+  }
+
+  .whiteLine
+  {
+    margin-bottom: 5px !important;
+  }
+
+  .projectLine
+  {
+    margin-bottom: 10px !important;
   }
 }
 
-@media (max-width:1024px){
-
+@media (max-width:1024px)
+{
+  
 }
+
+@media (min-width:1050px) and (max-width: 1920px)
+{
+  .whiteLine
+  {
+    visibility: collapse !important;
+  }
+
+  .projectLine
+  {
+    visibility: collapse !important;
+  }
+}
+
 
 
 
