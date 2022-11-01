@@ -299,6 +299,11 @@ font-size: 27px;
   {
     margin-bottom: 10px !important;
   }
+
+  .topnav a
+  {
+    padding: 30px 9.5px;
+  }
 }
 
 @media (max-width:1024px)
