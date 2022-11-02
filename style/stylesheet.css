@@ -306,6 +306,12 @@ border: solid 2px #333333;
     padding: 30px 9.5px;
     font-size: 16px;
   }
+
+  .btnFour
+  {
+    margin-left: 30px !important;
+    scale: 0.7;
+  }
 }
 
 @media (max-width:450px) /* Big Phones */
@@ -361,6 +367,12 @@ border: solid 2px #333333;
   .buttonMarginBottom
   {
     margin-bottom: 18px;
+  }
+
+  .btnFour
+  {
+    margin-left: 45px;
+    scale: 0.7;
   }
 }
 
