@@ -356,6 +356,11 @@ border: solid 2px #333333;
   {
     margin-left: -3px;
   }
+
+  .buttonMarginBottom
+  {
+    margin-bottom: 18px;
+  }
 }
 
 @media (max-width:1024px) /* iPad / Tablet */
@@ -373,6 +378,11 @@ border: solid 2px #333333;
   .projectLine
   {
     visibility: collapse !important;
+  }
+
+  .buttonMarginBottom
+  {
+    margin-bottom: 18px;
   }
 }
 

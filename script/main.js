@@ -6,11 +6,27 @@ function ChangeLanguage()
     {
         t.value="EN";
         document.getElementById("aboutMe").innerHTML  = "<span style=\"font-weight:normal\"> I'm Kevin Pladdet, I’m 17 years old and from the Netherlands. I’m currently following an education about Software Development where I’m learning how to code and how to make games/websites.<br></br>I’m very interested when it comes to game development, I love making games from scratch and seeing how it develops towards a complete game. On this website you can find some projects I’ve made along the way, and you can play them if you’d like.";
+        document.getElementById("featuredProductsText").innerHTML = "Featured Products";
+        document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is a 3D platformer where your goal is to get the best time possible.'; 
+        document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Have tank fights with your friend in this simple game! Will you win? ';
+        document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
+        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> This is a website of my Portfolio, where I talk about myself and share projects. ';
+        document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
+        document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
+        document.getElementById("contactMe").innerHTML = "Featured Products";
     }
     else if(t.value=="EN")
     {
         t.value="NL";
         document.getElementById("aboutMe").innerHTML = "<span style=\"font-weight:normal\"> Mijn naam is Kevin Pladdet. Ik ben 17 jaar oud en ik kom uit Nederland. Op dit moment volg ik de opleiding Software Development, waar ik leer coderen en games/websites te maken. <br> </br> Ik ben erg geïnteresseerd als het gaat om game development. Ik vind het leuk om games vanaf het begin te maken en te zien hoe het ontwikkelt naar een complete game. Op deze website kan je allerlei projecten zien (en spelen) die ik heb gemaakt.";
+        document.getElementById("featuredProductsText").innerHTML = "Aanbevolen Projecten";
+        document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
+        document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
+        document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met autos, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
+        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn Portfolio website, waar ik over mezelf vertel en projecten deel.';
+        document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
+        document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
+        document.getElementById("contactMe").innerHTML = "Neem Contact Met Mij Op";
     }
 }
 
