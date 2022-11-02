@@ -10,6 +10,12 @@ body
   border-radius: 5px;
 }
 
+.textColumnTwo
+{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
 .textColumnText
 {
   border: 3px solid rgb(0, 0, 0);
@@ -309,8 +315,13 @@ border: solid 2px #333333;
 
   .btnFour
   {
-    margin-left: 30px !important;
+    margin: auto !important;
     scale: 0.7;
+  }
+
+  .textColumnTwo
+  {
+    margin: 10px 10px 10px 10px;
   }
 }
 
@@ -371,8 +382,13 @@ border: solid 2px #333333;
 
   .btnFour
   {
-    margin-left: 45px;
+    margin: auto;
     scale: 0.7;
+  }
+
+  .textColumnTwo
+  {
+    margin: 10px 10px 10px 10px;
   }
 }
 
