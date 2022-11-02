@@ -22,7 +22,7 @@ function ChangeLanguage()
         document.getElementById("featuredProductsText").innerHTML = "Aanbevolen Projecten";
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
-        document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met autos, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
+        document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn Portfolio website, waar ik over mezelf vertel en projecten deel.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
