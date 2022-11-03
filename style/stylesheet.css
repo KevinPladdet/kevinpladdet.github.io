@@ -394,7 +394,15 @@ border: solid 2px #333333;
 
 @media (max-width:1024px) /* iPad / Tablet */
 {
-  
+  .textColumnText
+  {
+    height: 150px;
+  }
+
+  .buttonMarginBottom
+  {
+    margin-bottom: 15px !important;
+  }
 }
 
 @media (min-width:1050px) and (max-width: 1920px) /* PC / Laptop */

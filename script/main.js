@@ -14,6 +14,12 @@ function ChangeLanguage()
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
         document.getElementById("contactMe").innerHTML = "Featured Products";
+        document.getElementById("translateButton").innerHTML = "More Info";
+        document.getElementById("translateButtonTwo").innerHTML = "More Info";
+        document.getElementById("translateButtonThree").innerHTML = "More Info";
+        document.getElementById("translateButtonFour").innerHTML = "More Info";
+        document.getElementById("translateButtonMail").innerHTML = "Mail Me";
+        document.getElementById("translateButtonGithub").innerHTML = "GitHub Page";
     }
     else if(t.value=="EN")
     {
@@ -27,6 +33,12 @@ function ChangeLanguage()
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
         document.getElementById("contactMe").innerHTML = "Neem Contact Met Mij Op";
+        document.getElementById("translateButton").innerHTML = "Meer Info";
+        document.getElementById("translateButtonTwo").innerHTML = "Meer Info";
+        document.getElementById("translateButtonThree").innerHTML = "Meer Info";
+        document.getElementById("translateButtonFour").innerHTML = "Meer Info";
+        document.getElementById("translateButtonMail").innerHTML = "Mail Mij";
+        document.getElementById("translateButtonGithub").innerHTML = "GitHub Pagina";
     }
 }
 
@@ -114,6 +126,12 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> This is a placeholder for my Game Jam project. (Will be filled in December) ';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> This is a webshop I made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Here I will put another website at some point. ';
+        document.getElementById("translateButtonFive").innerHTML = "More Info";
+        document.getElementById("translateButtonSix").innerHTML = "More Info";
+        document.getElementById("translateButtonSeven").innerHTML = "More Info";
+        document.getElementById("translateButtonEight").innerHTML = "More Info";
+        document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Page";
+        document.getElementById("translateButtonNine").innerHTML = "More Info";
     }
     else if(t.value=="EN")
     {
@@ -124,5 +142,11 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Dit is een placeholder voor de Game Off. (Wordt ingevuld in December) ';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop die ik heb gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnenkort een website plaatsen. ';
+        document.getElementById("translateButtonFive").innerHTML = "Meer Info";
+        document.getElementById("translateButtonSix").innerHTML = "Meer Info";
+        document.getElementById("translateButtonSeven").innerHTML = "Meer Info";
+        document.getElementById("translateButtonEight").innerHTML = "Meer Info";
+        document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
+        document.getElementById("translateButtonNine").innerHTML = "Meer Info";
     }
 }
