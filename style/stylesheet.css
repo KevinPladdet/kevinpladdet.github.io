@@ -294,7 +294,7 @@ border: solid 2px #333333;
 
   .buttonSpacing
   {
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
   }
 
   .whiteLine
@@ -348,6 +348,7 @@ border: solid 2px #333333;
   {
     width: 94% !important;
     margin-left: 6px;
+    height: 175px !important;
   }
 
   .buttonSpacing
