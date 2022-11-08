@@ -13,7 +13,7 @@ function ChangeLanguage()
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> This is a website of my Portfolio, where I talk about myself and share projects. ';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
-        document.getElementById("contactMe").innerHTML = "Featured Products";
+        document.getElementById("contactMe").innerHTML = "Contact Me";
         document.getElementById("translateButton").innerHTML = "More Info";
         document.getElementById("translateButtonTwo").innerHTML = "More Info";
         document.getElementById("translateButtonThree").innerHTML = "More Info";
