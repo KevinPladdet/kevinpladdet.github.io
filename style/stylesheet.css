@@ -169,16 +169,27 @@ font-size: 27px;
   margin-bottom: 0px;
 }
 
+.text-center {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.itemtext p{
+  min-height: 3.2rem;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 
 .btnTwo
 {
+display: block;
+box-sizing: content-box;
 font-family: Roboto, sans-serif;
 font-weight: 0;
 font-size: 14px;
 color: rgb(255, 255, 255);
 background-color: #ffffff00;
-padding: 10px 30px;
+padding: 10px 0px;
 border: solid #ffffff 2px;
 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
 border-radius: 50px;
@@ -201,7 +212,7 @@ width: 150px;
 .btnTwo:hover
 {
 transition : 1000ms;
-padding: 10px 50px;
+padding: 10px 0px;
 transform : translateY(-0px);
 background-color: rgba(255, 255, 255, 0);
 color: #ffffff;
