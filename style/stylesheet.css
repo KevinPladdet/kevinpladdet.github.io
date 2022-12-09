@@ -116,6 +116,11 @@ font-size: 27px;
   left: 43px;
 }
 
+.img-fluid
+{
+  width: 100%;
+}
+
 .bodyTwo
 {
   height: 100%;

@@ -123,7 +123,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is a 3D platformer where your goal is to get the best time possible.'; 
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Have tank fights with your friend in this simple game! Will you win? ';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
-        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> This is a placeholder for my Game Jam project. (Will be filled in December) ';
+        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is a challenging game that is easy to learn, but hard to master!';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> This is a webshop I made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Here I will put another website at some point. ';
         document.getElementById("translateButtonFive").innerHTML = "More Info";
@@ -139,7 +139,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
-        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Dit is een placeholder voor de Game Off. (Wordt ingevuld in December) ';
+        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop die ik heb gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnenkort een website plaatsen. ';
         document.getElementById("translateButtonFive").innerHTML = "Meer Info";
@@ -148,5 +148,21 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("translateButtonEight").innerHTML = "Meer Info";
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
         document.getElementById("translateButtonNine").innerHTML = "Meer Info";
+    }
+}
+
+function ChangeLanguageWS()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("wsInfo").innerHTML = '<span style=\"font-weight:normal\"> Wizard’s Struggle is a challenging game that is easy to learn, but hard to master!<br></br>The game is 2 - ∞ hours long, the average time for the playtesters to finish was 4h.<br></br>If you fall you will lose most of your progress.<br></br>Can you save the princess? <br></br>This game was made for the <a href="https://itch.io/jam/game-off-2022" target="_blank" rel="noopener noreferrer"><i>Game Off 2022</i></a>.<br></br>I had a month to make a game based off a theme.<br></br>The theme of the Game Off 2022 is "Cliché"<br></br>I had a month to make a game based on that theme.<br></br>My cliché is "At the end of the day, the hero saves the girl".<br></br>While making this project I learned how to design 2D maps (I used Illustrator) and how to use audio in Unity. (SFX and music)<br></br>Wizard’s Struggle took me a month to make in Unity (around 10 hours per week) and you can play it on Windows. <br></br>Click <a href="https://itskevin183.itch.io/wizards-struggle" target="_blank" rel="noopener noreferrer"><i>here</i></a> to try Wizard’s Struggle out for yourself.';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("wsInfo").innerHTML = '<span style=\"font-weight:normal\"> Wizard’s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!<br></br>Het spel is 2 - ∞ uur lang, de gemiddelde tijd voor de playtesters om het uit te spelen was 4 uur.<br></br>Als je valt verlies je een groot deel van je vooruitgang.<br></br>Kun jij de prinses redden?<br></br>Dit spel is gemaakt voor de <a href="https://itch.io/jam/game-off-2022" target="_blank" rel="noopener noreferrer"><i>Game Off 2022</i></a>.<br></br>Ik had een maand om een spel te maken gebaseerd op een thema.<br></br>Het thema van de Game Off 2022 is "Cliché".<br></br>Ik had een maand om een spel te maken gebaseerd op dat thema.<br></br>Mijn cliché is "Aan het einde van de dag, redt de held de prinses".<br></br>Tijdens het maken van dit project heb ik geleerd hoe je 2D maps ontwerpt (ik gebruikte Illustrator) en hoe je audio gebruikt in Unity. (SFX en muziek)<br></br>Wizard’s Struggle duurde me een maand om te maken met Unity (ongeveer 10 uur per week) en je kunt het spelen op Windows.<br></br>Klik <a href="https://itskevin183.itch.io/wizards-struggle" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om Wizard’s Struggle zelf uit te proberen.';
     }
 }
