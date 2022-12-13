@@ -339,6 +339,16 @@ border: solid 2px #333333;
   {
     margin: 10px 10px 10px 10px;
   }
+
+  #textResize
+  {
+    width: 90%;
+  }
+
+  #videoResize
+  {
+    width: 90%;
+  }
 }
 
 @media (max-width:450px) /* Big Phones */
@@ -407,6 +417,16 @@ border: solid 2px #333333;
   {
     margin: 10px 10px 10px 10px;
   }
+
+  #textResize
+  {
+    width: 90%;
+  }
+
+  #videoResize
+  {
+    width: 90%;
+  }
 }
 
 @media (max-width:1024px) /* iPad / Tablet */
@@ -419,6 +439,16 @@ border: solid 2px #333333;
   .buttonMarginBottom
   {
     margin-bottom: 15px !important;
+  }
+
+  #textResize
+  {
+    width: 90%;
+  }
+
+  #videoResize
+  {
+    width: 90%;
   }
 }
 
