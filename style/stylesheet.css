@@ -30,7 +30,8 @@ body
 
 #aboutMe
 {
-font-size: 27px;
+  font-size: 27px;
+  margin-bottom: 31px;
 }
 
 .topnav 
