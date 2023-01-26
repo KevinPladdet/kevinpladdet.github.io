@@ -10,6 +10,7 @@ function ChangeLanguage()
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is a 3D platformer where your goal is to get the best time possible.'; 
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Have tank fights with your friend in this simple game! Will you win? ';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
+        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> This is a website of my Portfolio, where I talk about myself and share projects. ';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
@@ -18,6 +19,8 @@ function ChangeLanguage()
         document.getElementById("translateButtonTwo").innerHTML = "More Info";
         document.getElementById("translateButtonThree").innerHTML = "More Info";
         document.getElementById("translateButtonFour").innerHTML = "More Info";
+        document.getElementById("translateButtonFive").innerHTML = "More Info";
+        document.getElementById("translateButtonSix").innerHTML = "More Info";
         document.getElementById("translateButtonMail").innerHTML = "Mail Me";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Page";
     }
@@ -29,6 +32,7 @@ function ChangeLanguage()
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
+        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn Portfolio website, waar ik over mezelf vertel en projecten deel.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
@@ -37,6 +41,8 @@ function ChangeLanguage()
         document.getElementById("translateButtonTwo").innerHTML = "Meer Info";
         document.getElementById("translateButtonThree").innerHTML = "Meer Info";
         document.getElementById("translateButtonFour").innerHTML = "Meer Info";
+        document.getElementById("translateButtonFive").innerHTML = "Meer Info";
+        document.getElementById("translateButtonSix").innerHTML = "Meer Info";
         document.getElementById("translateButtonMail").innerHTML = "Mail Mij";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Pagina";
     }
@@ -126,10 +132,15 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is a challenging game that is easy to learn, but hard to master!';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> This is a webshop I made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Here I will put another website at some point. ';
+        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
+        document.getElementById("sixthDescription").innerHTML = '<span style="font-size:18px;"> I will put another game here at some point. ';
         document.getElementById("translateButtonFive").innerHTML = "More Info";
         document.getElementById("translateButtonSix").innerHTML = "More Info";
         document.getElementById("translateButtonSeven").innerHTML = "More Info";
         document.getElementById("translateButtonEight").innerHTML = "More Info";
+        document.getElementById("translateButtonNine").innerHTML = "More Info";
+        document.getElementById("translateButtonTen").innerHTML = "More Info";
+        document.getElementById("translateButtonEleven").innerHTML = "More Info";
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Page";
         document.getElementById("translateButtonNine").innerHTML = "More Info";
     }
@@ -142,10 +153,15 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop die ik heb gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnenkort een website plaatsen. ';
+        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken? ';
+        document.getElementById("sixthDescription").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnekort een spel plaatsen. ';
         document.getElementById("translateButtonFive").innerHTML = "Meer Info";
         document.getElementById("translateButtonSix").innerHTML = "Meer Info";
         document.getElementById("translateButtonSeven").innerHTML = "Meer Info";
         document.getElementById("translateButtonEight").innerHTML = "Meer Info";
+        document.getElementById("translateButtonNine").innerHTML = "Meer Info";
+        document.getElementById("translateButtonTen").innerHTML = "Meer Info";
+        document.getElementById("translateButtonEleven").innerHTML = "Meer Info";
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
         document.getElementById("translateButtonNine").innerHTML = "Meer Info";
     }
@@ -164,5 +180,20 @@ function ChangeLanguageWS()
     {
         t.value="NL";
         document.getElementById("wsInfo").innerHTML = '<span style=\"font-weight:normal\"> Wizard’s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!<br></br>Het spel is 2 - ∞ uur lang, de gemiddelde tijd voor de playtesters om het uit te spelen was 4 uur.<br></br>Als je valt verlies je een groot deel van je vooruitgang.<br></br>Kun jij de prinses redden?<br></br>Dit spel is gemaakt voor de <a href="https://itch.io/jam/game-off-2022" target="_blank" rel="noopener noreferrer"><i>Game Off 2022</i></a>.<br></br>Ik had een maand om een spel te maken gebaseerd op een thema.<br></br>Het thema van de Game Off 2022 is "Cliché".<br></br>Ik had een maand om een spel te maken gebaseerd op dat thema.<br></br>Mijn cliché is "Aan het einde van de dag, redt de held de prinses".<br></br>Tijdens het maken van dit project heb ik geleerd hoe je 2D maps ontwerpt (ik gebruikte Illustrator) en hoe je audio gebruikt in Unity. (SFX en muziek)<br></br>Wizard’s Struggle duurde me een maand om te maken met Unity (ongeveer 10 uur per week) en je kunt het spelen op Windows.<br></br>Klik <a href="https://itskevin183.itch.io/wizards-struggle" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om Wizard’s Struggle zelf uit te proberen.';
+    }
+}
+
+function ChangeLanguageConstructionMadness()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";document.getElementById("cmInfo").innerHTML = '<span style=\"font-weight:normal\"> Construction Madness is a 2D game where you climb a construction site. At the top of the construction site is a worker who is trying to stop you by throwing his tools and paint cans down.Can you get to the top and defeat the worker?<br></br>I made this game in a group with 4 art designers and 1 other programmer.The game took us 2 months to make and was made with Unity.I made the Main Menu/Settings Menu/Pause Menu, the Hammer system, the Animations and the Level Design.<br></br>While making this project I learned how to work together in the same project using GitHub and how to add animations to characters and objects.<br></br>Click <a href="/gamebuilds/WebGL_ConstructionMadness/ConstructionMadnessWeb.html"><i>here</i></a> to try Construction Madness out for yourself. </span><br></br><i>This does not work on phones/tablets.</i>';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("cmInfo").innerHTML = '<span style=\"font-weight:normal\"> Construction Madness is een 2D-spel waarin je een bouwplaats beklimt. Op de top van de bouwplaats staat een werker die je probeert tegen te houden door zijn gereedschap en verfblikken naar beneden te gooien. Kun jij de top bereiken en de werker verslaan?<br></br>Ik heb dit spel gemaakt in een groep met 4 art designers en 1 andere programmeur. Het spel kostte ons 2 maanden om te maken en is gemaakt met Unity. Ik heb het main menu/settings menu/pause menu, het hamersysteem, de animaties en het levelontwerp gemaakt.<br></br>Tijdens het maken van dit project heb ik geleerd hoe je samenwerkt in hetzelfde project met behulp van GitHub en hoe je animaties toevoegt aan personages en objecten.<br></br>Klik <a href="/gamebuilds/WebGL_ConstructionMadness/ConstructionMadnessWeb.html"><i>hier</i></a> om Construction Madness zelf uit te proberen. </span><br></br><i>Dit werkt niet op telefoons/tablets.</i>';
     }
 }
