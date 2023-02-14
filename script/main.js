@@ -16,15 +16,14 @@ function ChangeLanguage()
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
         document.getElementById("contactMe").innerHTML = "Contact Me";
-        document.getElementById("translateButton").innerHTML = "More Info";
-        document.getElementById("translateButtonTwo").innerHTML = "More Info";
-        document.getElementById("translateButtonThree").innerHTML = "More Info";
-        document.getElementById("translateButtonFour").innerHTML = "More Info";
-        document.getElementById("translateButtonFive").innerHTML = "More Info";
-        document.getElementById("translateButtonSix").innerHTML = "More Info";
-        document.getElementById("translateButtonTMS").innerHTML = "More Info";
         document.getElementById("translateButtonMail").innerHTML = "Mail Me";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Page";
+
+        const collection = document.getElementsByClassName("moreInfoButton");
+        for (let i = 0; i < collection.length; i++) 
+        {
+        collection[i].innerHTML = "More Info";
+        }
     }
     else if(t.value=="EN")
     {
@@ -40,15 +39,14 @@ function ChangeLanguage()
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
         document.getElementById("contactMe").innerHTML = "Neem Contact Met Mij Op";
-        document.getElementById("translateButton").innerHTML = "Meer Info";
-        document.getElementById("translateButtonTwo").innerHTML = "Meer Info";
-        document.getElementById("translateButtonThree").innerHTML = "Meer Info";
-        document.getElementById("translateButtonFour").innerHTML = "Meer Info";
-        document.getElementById("translateButtonFive").innerHTML = "Meer Info";
-        document.getElementById("translateButtonSix").innerHTML = "Meer Info";
-        document.getElementById("translateButtonTMS").innerHTML = "Meer Info";
         document.getElementById("translateButtonMail").innerHTML = "Mail Mij";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Pagina";
+
+        const collection = document.getElementsByClassName("moreInfoButton");
+        for (let i = 0; i < collection.length; i++) 
+        {
+        collection[i].innerHTML = "Meer Info";
+        }
     }
 }
 
@@ -138,17 +136,13 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Here I will put another website at some point. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
         document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
-        document.getElementById("sixthDescription").innerHTML = '<span style="font-size:18px;"> I will put another game here at some point. ';
-        document.getElementById("translateButtonFive").innerHTML = "More Info";
-        document.getElementById("translateButtonSix").innerHTML = "More Info";
-        document.getElementById("translateButtonSeven").innerHTML = "More Info";
-        document.getElementById("translateButtonEight").innerHTML = "More Info";
-        document.getElementById("translateButtonNine").innerHTML = "More Info";
-        document.getElementById("translateButtonTen").innerHTML = "More Info";
-        document.getElementById("translateButtonEleven").innerHTML = "More Info";
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Page";
-        document.getElementById("translateButtonNine").innerHTML = "More Info";
-        document.getElementById("translateButtonTMStwo").innerHTML = "More Info";
+
+        const collection = document.getElementsByClassName("moreInfoButton");
+        for (let i = 0; i < collection.length; i++) 
+        {
+        collection[i].innerHTML = "More Info";
+        }
     }
     else if(t.value=="EN")
     {
@@ -161,18 +155,13 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop die ik heb gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnenkort een website plaatsen. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken?';
-        document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
-        document.getElementById("sixthDescription").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnekort een spel plaatsen. ';
-        document.getElementById("translateButtonFive").innerHTML = "Meer Info";
-        document.getElementById("translateButtonSix").innerHTML = "Meer Info";
-        document.getElementById("translateButtonSeven").innerHTML = "Meer Info";
-        document.getElementById("translateButtonEight").innerHTML = "Meer Info";
-        document.getElementById("translateButtonNine").innerHTML = "Meer Info";
-        document.getElementById("translateButtonTen").innerHTML = "Meer Info";
-        document.getElementById("translateButtonEleven").innerHTML = "Meer Info";
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
-        document.getElementById("translateButtonNine").innerHTML = "Meer Info";
-        document.getElementById("translateButtonTMStwo").innerHTML = "Meer Info";
+
+        const collection = document.getElementsByClassName("moreInfoButton");
+        for (let i = 0; i < collection.length; i++) 
+        {
+        collection[i].innerHTML = "Meer Info";
+        }
     }
 }
 
