@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">Featured Products</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageTimmyMidnightSnack()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://youtube.com/embed/A1KiE17avGg" title="Timmy's Midnight Snack Gameplay" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3 id="tmsInfo"> <span style="font-weight:normal">
+            <b>What's the game about?</b>
+            <br></br>
+            Timmy's Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.
+            The goal of the game is to eat everything, but if your mother catches you eating you lose.
+            Can you eat everything without getting caught?
+            <br></br>
+            <b>Game Jam</b>
+            <br></br>
+            I made this game for a Game Jam at school.
+            The theme of the Game Jam was "Forbidden Midnight Snack".
+            The Game Jam was 2 days long and the game was made with Unity.
+            I worked in a group with 1 asset creator and 1 other programmer.
+            I programmed everything except the eating mechanic.
+            While making this game I got better at using GitHub and adding animations. 
+            I also made the game using trial and error, without following tutorials. 
+            <br></br>
+            Click <a href="/gamebuilds/WebGL_TimmysMidnightSnack/TimmyMidnightSnackWeb.html"><i>here</i></a> to try Timmy's Midnight Snack out for yourself. </span>
+            <br></br>
+            <i>This does not work on phones/tablets.</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>

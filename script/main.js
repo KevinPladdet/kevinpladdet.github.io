@@ -11,7 +11,8 @@ function ChangeLanguage()
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Have tank fights with your friend in this simple game! Will you win? ';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
-        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> This is a website of my Portfolio, where I talk about myself and share projects. ';
+        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is a challenging game that is easy to learn, but hard to master!';
+        document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
         document.getElementById("contactMe").innerHTML = "Contact Me";
@@ -21,6 +22,7 @@ function ChangeLanguage()
         document.getElementById("translateButtonFour").innerHTML = "More Info";
         document.getElementById("translateButtonFive").innerHTML = "More Info";
         document.getElementById("translateButtonSix").innerHTML = "More Info";
+        document.getElementById("translateButtonTMS").innerHTML = "More Info";
         document.getElementById("translateButtonMail").innerHTML = "Mail Me";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Page";
     }
@@ -33,7 +35,8 @@ function ChangeLanguage()
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken? ';
-        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn Portfolio website, waar ik over mezelf vertel en projecten deel.';
+        document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
+        document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
         document.getElementById("contactMe").innerHTML = "Neem Contact Met Mij Op";
@@ -43,6 +46,7 @@ function ChangeLanguage()
         document.getElementById("translateButtonFour").innerHTML = "Meer Info";
         document.getElementById("translateButtonFive").innerHTML = "Meer Info";
         document.getElementById("translateButtonSix").innerHTML = "Meer Info";
+        document.getElementById("translateButtonTMS").innerHTML = "Meer Info";
         document.getElementById("translateButtonMail").innerHTML = "Mail Mij";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Pagina";
     }
@@ -133,6 +137,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> This is a webshop I made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Here I will put another website at some point. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
+        document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
         document.getElementById("sixthDescription").innerHTML = '<span style="font-size:18px;"> I will put another game here at some point. ';
         document.getElementById("translateButtonFive").innerHTML = "More Info";
         document.getElementById("translateButtonSix").innerHTML = "More Info";
@@ -143,6 +148,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("translateButtonEleven").innerHTML = "More Info";
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Page";
         document.getElementById("translateButtonNine").innerHTML = "More Info";
+        document.getElementById("translateButtonTMStwo").innerHTML = "More Info";
     }
     else if(t.value=="EN")
     {
@@ -151,9 +157,11 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
+        document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop die ik heb gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnenkort een website plaatsen. ';
-        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken? ';
+        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken?';
+        document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
         document.getElementById("sixthDescription").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnekort een spel plaatsen. ';
         document.getElementById("translateButtonFive").innerHTML = "Meer Info";
         document.getElementById("translateButtonSix").innerHTML = "Meer Info";
@@ -164,6 +172,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("translateButtonEleven").innerHTML = "Meer Info";
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
         document.getElementById("translateButtonNine").innerHTML = "Meer Info";
+        document.getElementById("translateButtonTMStwo").innerHTML = "Meer Info";
     }
 }
 
@@ -195,5 +204,20 @@ function ChangeLanguageConstructionMadness()
     {
         t.value="NL";
         document.getElementById("cmInfo").innerHTML = '<span style=\"font-weight:normal\"> Construction Madness is een 2D-spel waarin je een bouwplaats beklimt. Op de top van de bouwplaats staat een werker die je probeert tegen te houden door zijn gereedschap en verfblikken naar beneden te gooien. Kun jij de top bereiken en de werker verslaan?<br></br>Ik heb dit spel gemaakt in een groep met 4 art designers en 1 andere programmeur. Het spel kostte ons 2 maanden om te maken en is gemaakt met Unity. Ik heb het main menu/settings menu/pause menu, het hamersysteem, de animaties en het levelontwerp gemaakt.<br></br>Tijdens het maken van dit project heb ik geleerd hoe je samenwerkt in hetzelfde project met behulp van GitHub en hoe je animaties toevoegt aan personages en objecten.<br></br>Klik <a href="/gamebuilds/WebGL_ConstructionMadness/ConstructionMadnessWeb.html"><i>hier</i></a> om Construction Madness zelf uit te proberen. </span><br></br><i>Dit werkt niet op telefoons/tablets.</i>';
+    }
+}
+
+function ChangeLanguageTimmyMidnightSnack()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";document.getElementById("tmsInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>What\'s the game about?</b><br></br>Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks. The goal of the game is to eat everything, but if your mother catches you eating you lose. Can you eat everything without getting caught?<br></br><b>Game Jam</b><br></br>I made this game for a Game Jam at school. The theme of the Game Jam was "Forbidden Midnight Snack". The Game Jam was 2 days long and the game was made with Unity. I worked in a group with 1 asset creator and 1 other programmer. I programmed everything except the eating mechanic. While making this game I got better at using GitHub and adding animations. I also made the game using trial and error, without following tutorials. <br></br>Click <a href="/gamebuilds/WebGL_TimmysMidnightSnack/TimmyMidnightSnackWeb.html"><i>here</i></a> to try Timmy\'s Midnight Snack out for yourself. </span><br></br><i>This does not work on phones/tablets.</i>';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("tmsInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het spel over?</b> <br></br> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten. Het doel van het spel is om alles op te eten, maar als je moeder je betrapt verlies je. Kun jij alles opeten zonder betrapt te worden?  <br></br> <b>Game Jam</b> <br></br> Ik heb dit spel gemaakt voor een Game Jam op school. Het thema van de Game Jam was "Forbidden Midnight Snack". De Game Jam duurde 2 dagen en het spel is gemaakt met Unity. Ik werkte in een groep met 1 asset creator en 1 andere programmeur. Ik heb alles geprogrammeerd behalve het eet mechanic. Tijdens het maken van dit spel werd ik beter in het gebruik van GitHub en het toevoegen van animaties.  Ik maakte het spel ook met trial en errors, zonder tutorials te volgen.  <br></br> Klik <a href="/gamebuilds/WebGL_TimmysMidnightSnack/TimmyMidnightSnackWeb.html"><i>hier</i></a> om Timmy\'s Midnight Snack zelf uit te proberen. </span> <br></br> <i>Dit werkt niet op telefoons/tablets.</i>';
     }
 }
