@@ -128,12 +128,13 @@ function ChangeLanguageFeaturedProducts()
     if(t.value=="NL")
     {
         t.value="EN";
+        document.getElementById("otherProjectsText").innerHTML = '<i class="fa-solid fa-up-right-from-square"></i>&nbsp; Other Projects';
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is a 3D platformer where your goal is to get the best time possible.'; 
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Have tank fights with your friend in this simple game! Will you win? ';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is a challenging game that is easy to learn, but hard to master!';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> This is a webshop I made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!</i></a>';
-        document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Here I will put another website at some point. ';
+        document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> This project is about an Arduino Jukebox, which you can play songs on. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
         document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Page";
@@ -147,13 +148,14 @@ function ChangeLanguageFeaturedProducts()
     else if(t.value=="EN")
     {
         t.value="NL";
+        document.getElementById("otherProjectsText").innerHTML = '<i class="fa-solid fa-up-right-from-square"></i>&nbsp; Andere Projecten';
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
         document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
         document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop die ik heb gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
-        document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Hier zal ik binnenkort een website plaatsen. ';
+        document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Dit project gaat over een Arduino Jukebox, waarop je liedjes kunt afspelen. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken?';
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
 
@@ -208,5 +210,21 @@ function ChangeLanguageTimmyMidnightSnack()
     {
         t.value="NL";
         document.getElementById("tmsInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het spel over?</b><br></br>Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten. Het doel van het spel is om alles op te eten, maar als je moeder je betrapt bij het eten verlies je. Kun je alles opeten zonder betrapt te worden?<br></br><b>Game Jam</b><br></br>Ik heb dit spel gemaakt voor een Game Jam op school. Het thema van de Game Jam was "Forbidden Midnight Snack". De Game Jam was 2 dagen lang en het spel is gemaakt met Unity. Ik werkte in een groep met 1 asset creator en 1 andere programmeur. Ik heb alles geprogrammeerd, behalve het eet mechanic. Tijdens het maken van dit spel ben ik beter geworden in het gebruik van GitHub en het toevoegen van animaties. Ik maakte het spel ook met vallen en opstaan, zonder tutorials te volgen. <br></br>Klik <a href="https://github.com/KevinPladdet/GameJam_School" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om naar de GitHub pagina van Timmy\'s Midnight Snack te gaan. </span><br></br>Klik <a href="/gamebuilds/WebGL_TimmysMidnightSnack/TimmyMidnightSnackWeb.html"><i>hier</i></a> om Timmy\'s Midnight Snack zelf uit te proberen.</span><br></br><i>Dit werkt niet op telefoons/tablets.</i></i>';
+    }
+}
+
+function ChangeLanguageJukebox()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("arduinojukeboxInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>What\'s the project about?</b><br></br>This project is about an Arduino Jukebox which I have made with someone else. The idea is basically a Jukebox that uses an LCD screen to display what song you currently have selected. There is a button on the Arduino, if you press it a simple version of the selected song will play. If you press the button again, the song will stop playing. There is also a potentiometer, which you can use to select a song.<br></br><b>Why did I make this project?</b><br></br>I have made this project with someone else for a school project, the assignment was to create a creative Arduino Circuit that isn\'t too simple to make.<br></br><b>What did I learn?</b><br></br>While making this project I learned how to work together in Tinkercad, which is a website to make Arduino Circuits in. I also learned a lot more about the LCD screen, for example how to put a custom icon on it.<br></br>Click <a href="https://pastebin.com/8BXx3VW2" target="_blank" rel="noopener noreferrer"><i>here</i></a> to check out the code.<br></br>Below this text you can find a picture of the Tinkercad project.  ';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("arduinojukeboxInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het project over?</b><br></br>Dit project gaat over een Arduino Jukebox die ik samen met iemand anders heb gemaakt. Het idee is een Jukebox die een LCD-scherm gebruikt om te laten zien welk nummer je op dat moment geselecteerd hebt. Er zit een knop op de Arduino en als je die indrukt dan speelt er een eenvoudige versie van het geselecteerde nummer af. Als je nogmaals op de knop drukt, stopt het liedje met spelen. Er is ook een potentiometer, waarmee je een liedje kunt selecteren.<br></br><b>Waarom heb ik dit project gemaakt?</b><br></br>Ik heb dit project samen met iemand anders gemaakt voor een schoolproject, de opdracht was om een creatief Arduino Circuit te maken dat niet te simpel.<br></br><b>Wat heb ik geleerd?</b><br></br>Tijdens het maken van dit project heb ik geleerd hoe je kan samenwerken in Tinkercad, wat een website is waarin je Arduino Circuits kan maken. Ik heb ook veel geleerd over het LCD-scherm, bijvoorbeeld hoe je een custom icon er op kan zetten.<br></br>Klik <a href="https://pastebin.com/8BXx3VW2" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om de code te zien.<br></br>Hieronder kan je een foto van het Tinkercad project zien.';
     }
 }
