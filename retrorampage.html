@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">Featured Products</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageRetroRampage()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://youtube.com/embed/-9NEzPAit_o" title="Retro Rampage Gameplay" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3 id="rrInfo"> <span style="font-weight:normal">
+              <b>What's the game about?</b>
+              <br></br>
+              Retro Rampage is a 2D Top Down Shooter.
+              The goal of the game is to kill as many enemies as you can.
+              You start out with a pistol, but you may find other weapons along the way.
+              How long can you survive?
+              <br></br>
+              <b>Team Project</b>
+              <br></br>
+              I made this game in a group with 2 other programmers.
+              The game took us 2 months to make and was made with Unity.
+              I made the enemies using NavMeshAgent, which I've never used before.
+              The enemies will spawn randomly and will only start following you if you get close to them.
+              The enemies also shoot at you and will have optimized movement, so they won't run into walls.
+              <br></br>
+              <b>What did I learn?</b>
+              <br></br>
+              While making this project I learned how to use NavMesh.
+              I had never used NavMesh before, but I now know how to pathfind with it.
+              <br></br>
+              Click <a href="https://github.com/MaartenvdGoor/Retro-Rampage/tree/Development" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of Retro Rampage. </span>
+              <br></br>
+              Click <a href="/gamebuilds/WebGL_RetroRampage/RetroRampageWeb.html"><i>here</i></a> to try Retro Rampage out for yourself. </span>
+              <br></br>
+              <i>This does not work on phones/tablets.</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>

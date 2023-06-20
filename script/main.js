@@ -138,6 +138,11 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
         document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Page";
+        document.getElementById("translateButtonGithubThree").innerHTML = "GitHub Page";
+        document.getElementById("DescriptionSS").innerHTML = '<span style="font-size:18px;"> Coming Soon';
+        document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is a 2D Top Down Shooter, can you survive?';
+        document.getElementById("furnitureHomepageDescription").innerHTML = '<span style="font-size:18px;"> This is a furniture homepage website made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/furniturehomepagekevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!';
+        document.getElementById("websiteThree").innerHTML = '<span style="font-size:18px;"> This spot is reserved for an upcoming project.';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -158,6 +163,11 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Dit project gaat over een Arduino Jukebox, waarop je liedjes kunt afspelen. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken?';
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
+        document.getElementById("translateButtonGithubThree").innerHTML = "GitHub Pagina";
+        document.getElementById("DescriptionSS").innerHTML = '<span style="font-size:18px;"> Binnenkort Beschikbaar';
+        document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is een 2D Top Down Shooter, kun jij overleven?';
+        document.getElementById("furnitureHomepageDescription").innerHTML = '<span style="font-size:18px;"> Dit is een website voor meubels, gemaakt met JavaScript. Bekijk hem <a href="https://kevinpladdet.github.io/furniturehomepagekevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!';
+        document.getElementById("websiteThree").innerHTML = '<span style="font-size:18px;"> Deze plek is gereserveerd voor een aankomend project.';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -226,5 +236,21 @@ function ChangeLanguageJukebox()
     {
         t.value="NL";
         document.getElementById("arduinojukeboxInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het project over?</b><br></br>Dit project gaat over een Arduino Jukebox die ik samen met iemand anders heb gemaakt. Het idee is een Jukebox die een LCD-scherm gebruikt om te laten zien welk nummer je op dat moment geselecteerd hebt. Er zit een knop op de Arduino en als je die indrukt dan speelt er een eenvoudige versie van het geselecteerde nummer af. Als je nogmaals op de knop drukt, stopt het liedje met spelen. Er is ook een potentiometer, waarmee je een liedje kunt selecteren.<br></br><b>Waarom heb ik dit project gemaakt?</b><br></br>Ik heb dit project samen met iemand anders gemaakt voor een schoolproject, de opdracht was om een creatief Arduino Circuit te maken dat niet te simpel.<br></br><b>Wat heb ik geleerd?</b><br></br>Tijdens het maken van dit project heb ik geleerd hoe je kan samenwerken in Tinkercad, wat een website is waarin je Arduino Circuits kan maken. Ik heb ook veel geleerd over het LCD-scherm, bijvoorbeeld hoe je een custom icon er op kan zetten.<br></br>Klik <a href="https://pastebin.com/8BXx3VW2" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om de code te zien.<br></br>Hieronder kan je een foto van het Tinkercad project zien.';
+    }
+}
+
+function ChangeLanguageRetroRampage()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("rrInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>What\'s the game about?</b><br></br>Retro Rampage is a 2D Top Down Shooter.The goal of the game is to kill as many enemies as you can.You start out with a pistol, but you may find other weapons along the way.How long can you survive?<br></br><b>Team Project</b><br></br>I made this game in a group with 2 other programmersThe game took us 2 months to make and was made with Unity.I made the enemies using NavMeshAgent, which I\'ve never used before.The enemies will spawn randomly and will only start following you if you get close to them.The enemies also shoot at you and will have optimized movement, so they won\'t run into walls.<br></br><b>What did I learn?</b><br></br>While making this project I learned how to use NavMesh.I had never used NavMesh before, but I now know how to pathfind with it.<br></br>Click <a href="https://github.com/MaartenvdGoor/Retro-Rampage/tree/Development" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of Retro Rampage. </span><br></br>Click <a href="/gamebuilds/WebGL_RetroRampage/RetroRampageWeb.html"><i>here</i></a> to try Retro Rampage out for yourself. </span><br></br><i>This does not work on phones/tablets.</i>';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("rrInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het spel over?</b><br></br>Retro Rampage is een 2D Top Down Shooter. Het doel van het spel is om zoveel mogelijk vijanden te doden. Je begint met een pistool, maar je kunt onderweg ook andere wapens vinden. Hoe lang kan jij overleven?<br></br><b>Team Project</b><br></br>Ik heb dit spel gemaakt in een groep met 2 andere programmeurs. Het spel kostte ons 2 maanden om te maken en is gemaakt met Unity. Ik heb de vijanden gemaakt met NavMeshAgent, wat ik nog nooit eerder heb gebruikt. De vijanden spawnen willekeurig en volgen je alleen als je in de buurt komt. De vijanden schieten ook op je en hebben geoptimaliseerde bewegingen, zodat ze niet tegen muren oplopen.<br></br><b>Wat heb ik geleerd?</b><br></br>Tijdens het maken van dit project heb ik NavMesh leren gebruiken. Ik had NavMesh nog nooit gebruikt, maar ik weet nu hoe ik ermee moet pathfinden.<br></br>Klik <a href="https://github.com/MaartenvdGoor/Retro-Rampage/tree/Development" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om naar de GitHub-pagina van Retro Rampage te gaan.</span><br></br>Klik <a href="/gamebuilds/WebGL_RetroRampage/RetroRampageWeb.html"><i>hier</i></a> om Retro Rampage zelf uit te proberen.</span><br></br><i>Dit werkt niet op telefoons/tablets.</i>';
     }
 }
