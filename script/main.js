@@ -8,13 +8,13 @@ function ChangeLanguage()
         document.getElementById("aboutMe").innerHTML  = "<span style=\"font-weight:normal\"> I'm Kevin Pladdet, I’m 17 years old and from the Netherlands. I’m currently following an education about Software Development where I’m learning how to code and how to make games/websites.<br></br>I’m very interested when it comes to game development, I love making games from scratch and seeing how it develops towards a complete game. On this website you can find some projects I’ve made along the way, which you can play if you’d like.";
         document.getElementById("featuredProductsText").innerHTML = "Featured Products";
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is a 3D platformer where your goal is to get the best time possible.'; 
-        document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Have tank fights with your friend in this simple game! Will you win? ';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is a challenging game that is easy to learn, but hard to master!';
         document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
+        document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is a 2D Top Down Shooter, can you survive?';
         document.getElementById("contactMe").innerHTML = "Contact Me";
         document.getElementById("translateButtonMail").innerHTML = "Mail Me";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Page";
@@ -31,13 +31,13 @@ function ChangeLanguage()
         document.getElementById("aboutMe").innerHTML = "<span style=\"font-weight:normal\"> Mijn naam is Kevin Pladdet. Ik ben 17 jaar oud en ik kom uit Nederland. Op dit moment volg ik de opleiding Software Development, waar ik leer coderen en games/websites te maken. <br> </br> Ik ben erg geïnteresseerd als het gaat om game development. Ik vind het leuk om games vanaf het begin te maken en te zien hoe het ontwikkelt naar een complete game. Op deze website kan je allerlei projecten zien (en spelen) die ik heb gemaakt.";
         document.getElementById("featuredProductsText").innerHTML = "Aanbevolen Projecten";
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
-        document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Tanks 2D is een simpel spel waarin je tankgevechten hebt met je vrienden.';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
         document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
+        document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is een 2D Top Down Shooter, kun jij overleven?';
         document.getElementById("contactMe").innerHTML = "Neem Contact Met Mij Op";
         document.getElementById("translateButtonMail").innerHTML = "Mail Mij";
         document.getElementById("translateButtonGithub").innerHTML = "GitHub Pagina";
@@ -133,7 +133,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("tanksDescription").innerHTML = '<span style="font-size:18px;"> Have tank fights with your friend in this simple game! Will you win? ';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is a challenging game that is easy to learn, but hard to master!';
-        document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> This is a webshop I made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!</i></a>';
+        document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> This is a webshop made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> This project is about an Arduino Jukebox, which you can play songs on. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
         document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
@@ -142,7 +142,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("DescriptionSS").innerHTML = '<span style="font-size:18px;"> Coming Soon';
         document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is a 2D Top Down Shooter, can you survive?';
         document.getElementById("furnitureHomepageDescription").innerHTML = '<span style="font-size:18px;"> This is a furniture homepage website made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/furniturehomepagekevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!';
-        document.getElementById("websiteThree").innerHTML = '<span style="font-size:18px;"> This spot is reserved for an upcoming project.';
+        document.getElementById("vrProjectDescription").innerHTML = '<span style="font-size:18px;"> This is a small VR sandbox mainly made to try out VR.';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -159,15 +159,16 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
         document.getElementById("DescriptionTMS").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
-        document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop die ik heb gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
+        document.getElementById("webshopDescription").innerHTML = '<span style="font-size:18px;"> Dit is een webshop gemaakt met JavaScript. Bekijk het <a href="https://kevinpladdet.github.io/webshopkevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!</i></a>';
         document.getElementById("websiteTwo").innerHTML = '<span style="font-size:18px;"> Dit project gaat over een Arduino Jukebox, waarop je liedjes kunt afspelen. ';
         document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken?';
         document.getElementById("translateButtonGithubTwo").innerHTML = "GitHub Pagina";
         document.getElementById("translateButtonGithubThree").innerHTML = "GitHub Pagina";
+        document.getElementById("vrProjectDescription").innerHTML = '<span style="font-size:18px;"> Dit is een kleine sandbox die voornamelijk is gemaakt om VR uit te proberen.';
         document.getElementById("DescriptionSS").innerHTML = '<span style="font-size:18px;"> Binnenkort Beschikbaar';
         document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is een 2D Top Down Shooter, kun jij overleven?';
         document.getElementById("furnitureHomepageDescription").innerHTML = '<span style="font-size:18px;"> Dit is een website voor meubels, gemaakt met JavaScript. Bekijk hem <a href="https://kevinpladdet.github.io/furniturehomepagekevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!';
-        document.getElementById("websiteThree").innerHTML = '<span style="font-size:18px;"> Deze plek is gereserveerd voor een aankomend project.';
+        document.getElementById("vrProjectDescription").innerHTML = '<span style="font-size:18px;"> Dit is een kleine sandbox die voornamelijk is gemaakt om VR uit te proberen.';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -252,5 +253,21 @@ function ChangeLanguageRetroRampage()
     {
         t.value="NL";
         document.getElementById("rrInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het spel over?</b><br></br>Retro Rampage is een 2D Top Down Shooter. Het doel van het spel is om zoveel mogelijk vijanden te doden. Je begint met een pistool, maar je kunt onderweg ook andere wapens vinden. Hoe lang kan jij overleven?<br></br><b>Team Project</b><br></br>Ik heb dit spel gemaakt in een groep met 2 andere programmeurs. Het spel kostte ons 2 maanden om te maken en is gemaakt met Unity. Ik heb de vijanden gemaakt met NavMeshAgent, wat ik nog nooit eerder heb gebruikt. De vijanden spawnen willekeurig en volgen je alleen als je in de buurt komt. De vijanden schieten ook op je en hebben geoptimaliseerde bewegingen, zodat ze niet tegen muren oplopen.<br></br><b>Wat heb ik geleerd?</b><br></br>Tijdens het maken van dit project heb ik NavMesh leren gebruiken. Ik had NavMesh nog nooit gebruikt, maar ik weet nu hoe ik ermee moet pathfinden.<br></br>Klik <a href="https://github.com/MaartenvdGoor/Retro-Rampage/tree/Development" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om naar de GitHub-pagina van Retro Rampage te gaan.</span><br></br>Klik <a href="/gamebuilds/WebGL_RetroRampage/RetroRampageWeb.html"><i>hier</i></a> om Retro Rampage zelf uit te proberen.</span><br></br><i>Dit werkt niet op telefoons/tablets.</i>';
+    }
+}
+
+function ChangeLanguageVRProject()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("vrInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Information</b><br></br> At school I had the oppertunity to make a small VR game using the Meta Quest 2 headset. I took this oppertunity and wanted to make a sandbox game, including a basketball hoop. After I made a basketball hoop including bouncy basketballs, I then added guns which you can shoot objects with. At this point the sandbox was finished, but it was all placeholder assets. My goal was to make it look nice, so I downloaded some asset packs and made everything look much more appealing. <br></br><b>What did I learn?</b><br></br>I had never used VR before, but I really liked it. I learned how to setup a VR project and how the Meta Quest 2 works. Besides that I learned how to use Quest Link and how to make grabbable objects.';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("vrInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Informatie</b><br></br>Op school kreeg ik de kans om een klein VR-spel te maken met de Meta Quest 2 headset. Ik greep deze kans en wilde een sandbox game maken met een basketbalhoepel. Nadat ik een basketbalhoepel met basketballen had gemaakt, voegde ik revolvers toe waarmee je op objecten kunt schieten. Op dit punt was de sandbox af, maar het waren allemaal placeholder assets. Mijn doel was om het er leuk uit te laten zien, dus ik heb wat asset packs gedownload en alles ziet er nu veel aantrekkelijker uit. <br></br><b>Wat heb ik geleerd?</b><br></br>Ik had nog nooit VR gebruikt, maar ik vond het erg leuk. Ik heb geleerd hoe je een VR project opzet en hoe de Meta Quest 2 werkt. Daarnaast heb ik geleerd hoe ik Quest Link kan gebruiken en hoe ik grijpbare objecten kan maken.';
     }
 }
