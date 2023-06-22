@@ -143,6 +143,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is a 2D Top Down Shooter, can you survive?';
         document.getElementById("furnitureHomepageDescription").innerHTML = '<span style="font-size:18px;"> This is a furniture homepage website made with JavaScript. Check it out <a href="https://kevinpladdet.github.io/furniturehomepagekevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>here!';
         document.getElementById("vrProjectDescription").innerHTML = '<span style="font-size:18px;"> This is a small VR sandbox mainly made to try out VR.';
+        document.getElementById("DescriptionSS").innerHTML = '<span style="font-size:18px;"> ShadeSword is a 3D Action-Stealth game where stealth is only an afterthought.';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -169,6 +170,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is een 2D Top Down Shooter, kun jij overleven?';
         document.getElementById("furnitureHomepageDescription").innerHTML = '<span style="font-size:18px;"> Dit is een website voor meubels, gemaakt met JavaScript. Bekijk hem <a href="https://kevinpladdet.github.io/furniturehomepagekevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!';
         document.getElementById("vrProjectDescription").innerHTML = '<span style="font-size:18px;"> Dit is een kleine sandbox die voornamelijk is gemaakt om VR uit te proberen.';
+        document.getElementById("DescriptionSS").innerHTML = '<span style="font-size:18px;"> ShadeSword is een 3D Action-Stealth-spel waarin stealth slechts een bijzaak is.';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -269,5 +271,21 @@ function ChangeLanguageVRProject()
     {
         t.value="NL";
         document.getElementById("vrInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Informatie</b><br></br>Op school kreeg ik de kans om een klein VR-spel te maken met de Meta Quest 2 headset. Ik greep deze kans en wilde een sandbox game maken met een basketbalhoepel. Nadat ik een basketbalhoepel met basketballen had gemaakt, voegde ik revolvers toe waarmee je op objecten kunt schieten. Op dit punt was de sandbox af, maar het waren allemaal placeholder assets. Mijn doel was om het er leuk uit te laten zien, dus ik heb wat asset packs gedownload en alles ziet er nu veel aantrekkelijker uit. <br></br><b>Wat heb ik geleerd?</b><br></br>Ik had nog nooit VR gebruikt, maar ik vond het erg leuk. Ik heb geleerd hoe je een VR project opzet en hoe de Meta Quest 2 werkt. Daarnaast heb ik geleerd hoe ik Quest Link kan gebruiken en hoe ik grijpbare objecten kan maken.';
+    }
+}
+
+function ChangeLanguageShadeSword()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("ssInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>What\'s the game about?</b><br></br>ShadeSword is a 3D Action-Stealth game where stealth is only an afterthought. Whether you sneak around all enemies, beat them up individually or take them out silently, as long as you can get to the end you\’ll have won the game.<br></br><b>Team Project</b><br></br>I made this game in a group with 6 other programmers. The game took us 2 months to make and was made with Unity.<br></br><b>Planning</b><br></br>We designed the game using a <a href="https://docs.google.com/document/d/12WtjpQqYu_oYE8p5je8wy0ZJ3BMP5Xa9MPwGcX_xxB4/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i>Game Design Document</i></a>, which really helps us understand how exactly we\'re going to make the game. After the Game Design Document was finished, we started dividing the tasks and made a backlog with <a href="https://imgur.com/a/ds0TWhi" target="_blank" rel="noopener noreferrer"><i>Trello</i></a>.<br></br><b>SCRUM</b><br></br>We used SCRUM as our working method, so we had a sprint every 2 weeks. A sprint is a deadline where everyone has to finish their tasks. After a sprint was done, a new one would be made.</b><br></b><br><b>Why is the game not finished?</b><br></br>The game isn\'t finished because some of my group members did not finish their parts in time. This is a shame, since the idea of the game is really cool.<br></br><b>What did I make?</b><br></br>I made the inventory, including the healing / kunai / health bar. Besides that I also made scriptable objects, the death menu / win menu and a bit of the level design. Lastly all of the sounds you can hear in the video are all added by myself too, the sounds include: Healing SFX - Kunai SFX, Damage taken SFX, Switching through inventory SFX.<br></br><b>GitHub Page</b><br></br>Click <a href="https://github.com/KevinPladdet/Agile_Final" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of ShadeSword. </span>';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("ssInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het spel over?</b><br></br>ShadeSword is een 3D Action-Stealth-spel waarin stealth slechts een bijzaak is. Of je nu om alle vijanden heen sluipt, ze individueel in elkaar slaat of ze stilletjes uitschakelt, als je het einde maar haalt, heb je het spel gewonnen.<br></br><b>Team Project</b><br></br>Ik heb dit spel gemaakt in een groep met 6 andere programmeurs. Het spel kostte ons 2 maanden om te maken en is gemaakt met Unity.<br></br><b>Planning</b><br></br>We hebben het spel ontworpen met behulp van een <a href="https://docs.google.com/document/d/12WtjpQqYu_oYE8p5je8wy0ZJ3BMP5Xa9MPwGcX_xxB4/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i>Game Design Document</i></a>, zodat we precies weten hoe we het spel gaan maken. Nadat het Game Design Document klaar was, begonnen we met het verdelen van de taken en maakten we een backlog met <a href="https://imgur.com/a/ds0TWhi" target="_blank" rel="noopener noreferrer"><i>Trello</i></a>.<br></br><b>SCRUM</b><br></br>We gebruikten SCRUM als onze werkmethode, dus we hadden elke 2 weken een sprint. Een sprint is een deadline waarop iedereen zijn taken af moet hebben. Als een sprint klaar was, werd er een nieuwe sprint gemaakt.<br></br><b>Waarom is het spel niet af?</b><br></br>Het spel is niet af, omdat een aantal van mijn groepsleden hun onderdelen niet op tijd af hadden. Dit is jammer, want het idee van het spel is best cool.<br></br><b>Wat heb ik gemaakt?</b><br></br>Ik heb de inventory gemaakt, inclusief het healen, de kunai en de health bar. Naast dat heb ik ook scriptable objects, het death menu + win menu en een beetje van het level design gemaakt. Tot slot zijn alle geluiden die je in de video hoort ook allemaal door mij toegevoegd: Healing SFX - Kunai SFX, Damage taken SFX, Switching through inventory SFX.<br></br><b>GitHub Pagina</b><br></br>Klik <a href="https://github.com/KevinPladdet/Agile_Final" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om naar de GitHub pagina van ShadeSword te gaan. </span>';
     }
 }
