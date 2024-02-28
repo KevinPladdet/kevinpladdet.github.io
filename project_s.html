@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">Featured Products</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageProjectS()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://youtube.com/embed/bilrJM-Pch8" title="Project S Gameplay" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3 id="psInfo"> <span style="font-weight:normal">
+            <b>Collaborative Project</b>
+            <br></br>
+            I worked on this project during my internship with <a href="https://nl.linkedin.com/in/beau-verwimp-33a079223" target="_blank" rel="noopener noreferrer"><i>Beau Verwimp</i></a> and <a href="https://www.behance.net/HindAna" target="_blank" rel="noopener noreferrer"><i>Hind Anajay</i></a>.
+            <br></br>
+            Hind is a digital design & media student, and made a comic during the internship.
+            <br></br>
+            Beau is a software developer student, so he would make the website for the comic.
+            <br></br>
+            My goal was to make a game that was related to the comic and would appear on the website.
+            <br></br>
+            The working method we used was "scrum" and we used Trello to keep track of our tasks.
+            We made 2 sprints of 2 weeks, so we could get everything done within a month.
+            <br></br>
+            We worked on this project for a month and managed to get everything done in the end.
+            <br></br>
+            <b>What's the game about?</b>
+            <br></br>
+            Project S is a rhythm game, where the goal is to get the highest score possible.
+            <br></br>
+            There are 4 buttons you can press, each button being a different row.
+            When the song starts, notes will start falling. Once a note is inside of a button, you need to press that button.
+            If you press it perfectly, you will get more score than if you'd press it late or early.
+            <br></br>
+            There is also a score multiplier depending on how many notes you hit in a row.
+            If you miss a note, the score multiplier goes back to x1.
+            <br></br>
+            Once the song ends, a results screen will appear. 
+            <br>
+            On the results screen you can see how many times you hit each note, how many times you missed a note, 
+            your total score and your rank.
+            <br></br>
+            At the start of the game there is a controls menu.
+            <br>
+            In this menu the player can input their own controls, instead of the default ones.
+            <br>
+            If the player inputs an invalid or duplicate input, the game can not be started until it has been changed to a valid input.
+            <br></br>
+            <b>Other Information</b>
+            <br></br>
+            Click <a href="https://github.com/KevinPladdet/ProjectStage" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of Project S. </span>
+            <br></br>
+            Click <a href="/gamebuilds/WebGL_ProjectS/ProjectSWeb.html"><i>here</i></a> to try Project S out for yourself. </span>
+            <br></br>
+            <i>This does not work on phones/tablets.</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
