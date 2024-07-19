@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">All Products</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageDungeonEplorer()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/dzmgayOLX18" title="Dungeon Explorer Gameplay" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3 id="sgInfo"> <span style="font-weight:normal">
+              <b>What's the game about?</b>
+              <br></br>
+              Suika Game is a game about merging fruits.
+              The goal of the game is to get the highest score possible.
+              If a piece of fruit touches the top of the box, you lose.
+              Can you get a watermelon?
+              <br></br>
+              <b>Why did I make this project?</b>
+              <br></br>
+              Before I made Suika Game, I was working on Redo for several months.
+              I got burned out from working on it and decided I wanted to work on a small project.
+              I had watched and played Suika Game for quite a bit, so I figured it'd be fun to try making it myself.
+              <br></br>
+              <b>What did I learn?</b>
+              <br></br>
+              While making this project I learned how to break down the original Suika Game into all of its mechanics.
+              I made a task in Trello for each mechanic of Suika Game and started making them one by one.
+              Once they were all done, I put everything together.
+              <br></br>
+              When the game was done, I decided it would be fun to add an "Admin Mode". 
+              Whenever Admin Mode is on, the player can drag and drop every fruit. 
+              The trigger that ends the game is disabled, so the player can not lose.
+              This mode is basically a cheat mode, but its a lot of fun to use.          
+              <br></br>
+              <b>Other Information</b>
+              <br></br>
+              Suika Game took me 2 weeks to make in Unity (around 40 hours per week) and you can play it on Windows. 
+              <br></br>
+              <i>The assets and sounds from this project are from the original Suika Game, you can buy the original Suika Game <a href="https://ec.nintendo.com/NZ/en/titles/70010000074333" target="_blank" rel="noopener noreferrer"><i>here</i></a>.</i>
+              <br></br>
+              Click <a href="/gamebuilds/WebGL_SuikaGame/SuikaGameWeb.html"><i>here</i></a> to try Suika Game out for yourself. </span>
+              <br></br>
+              <i>This does not work on phones/tablets.</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>

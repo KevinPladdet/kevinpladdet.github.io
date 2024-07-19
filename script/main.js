@@ -5,7 +5,7 @@ function ChangeLanguage()
     if(t.value=="NL")
     {
         t.value="EN";
-        document.getElementById("aboutMe").innerHTML  = "<span style=\"font-weight:normal\"> I'm Kevin Pladdet, I’m 18 years old and from the Netherlands. I’m currently following an education about Software Development where I’m learning how to code and how to make games/websites.<br></br>I’m very interested when it comes to game development, I love making games from scratch and seeing how it develops towards a complete game. On this website you can find some projects I’ve made along the way, which you can play if you’d like.";
+        document.getElementById("aboutMe").innerHTML  = "<span style=\"font-weight:normal\"> I'm Kevin Pladdet, I’m 19 years old and from the Netherlands. I’m currently following an education about Software Development where I’m learning how to code and how to make games/websites.<br></br>I’m very interested when it comes to game development, I love making games from scratch and seeing how it develops towards a complete game. On this website you can find some projects I’ve made along the way, which you can play if you’d like.";
         document.getElementById("featuredProductsText").innerHTML = "Featured Products";
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is a 3D platformer where your goal is to get the best time possible.'; 
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
@@ -28,7 +28,7 @@ function ChangeLanguage()
     else if(t.value=="EN")
     {
         t.value="NL";
-        document.getElementById("aboutMe").innerHTML = "<span style=\"font-weight:normal\"> Mijn naam is Kevin Pladdet. Ik ben 18 jaar oud en ik kom uit Nederland. Op dit moment volg ik de opleiding Software Development, waar ik leer coderen en games/websites te maken. <br> </br> Ik ben erg geïnteresseerd als het gaat om game development. Ik vind het leuk om games vanaf het begin te maken en te zien hoe het ontwikkelt naar een complete game. Op deze website kan je allerlei projecten zien (en spelen) die ik heb gemaakt.";
+        document.getElementById("aboutMe").innerHTML = "<span style=\"font-weight:normal\"> Mijn naam is Kevin Pladdet. Ik ben 19 jaar oud en ik kom uit Nederland. Op dit moment volg ik de opleiding Software Development, waar ik leer coderen en games/websites te maken. <br> </br> Ik ben erg geïnteresseerd als het gaat om game development. Ik vind het leuk om games vanaf het begin te maken en te zien hoe het ontwikkelt naar een complete game. Op deze website kan je allerlei projecten zien (en spelen) die ik heb gemaakt.";
         document.getElementById("featuredProductsText").innerHTML = "Aanbevolen Projecten";
         document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
         document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
@@ -359,5 +359,37 @@ function ChangeLanguageRedo()
     {
         t.value="NL";
         document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>Waar gaat het spel over?</b><br></br>Redo is een platformer over het verzamelen van vaardigheden. Elke keer dat je een level haalt, krijg je een nieuwe vaardigheid. Het einde van een level is een nieuw begin en met elke vaardigheid opent een nieuw pad. Het doel is om elke vaardigheid te verzamelen en ze te gebruiken om het laatste level te halen. Kun jij Redo uitspelen?<br></br><b>Waarom heb ik dit project gemaakt?</b><br></br> Tijdens de <a href="https://itch.io/jam/brackeys-9" target="_blank" rel="noopener noreferrer"><i>Brackeys game jam 2023.1</i></a> was het thema “Een einde is een nieuw begin”. Ik had toen meegedaan aan de game jam en er <a href="https://pastebin.com/9tAgUgz0" target="_blank" rel="noopener noreferrer"><i>een spel idee</i></a> voor gemaakt. Ik heb het spel nooit afgemaakt en er maar een paar dagen aan gewerkt.<br></br>Tijdens mijn stage begon ik aan een nieuw project, met hetzelfde spel idee. Dit project heet Redo en ik heb er een <a href="https://jmp.sh/663bn7hb" target="_blank" rel="noopener noreferrer"><i>game design document</i></a> voor gemaakt waar alles in staat.<br></br><b>Wat heb ik geleerd?</b><br></br>Ik ben beter geworden in het maken van game design documenten en het werken met de agile werkmanier. Omdat ik in sprints werkte, lukte het me om elke maand een level af te maken. Dit is inclusief playtesten en vooruit plannen. <br></br> Tijdens de ontwikkeling van Redo ben ik beter geworden in gamedesign. Toen ik de nepvloerpuzzel in het eerste level maakte, was ik niet blij met het resultaat. Ik heb de puzzel helemaal opnieuw gemaakt en zelfs een “tutorial” toegevoegd (als je valt verschijnt er een tekst dat het uitlegt). Als je moeite hebt met de puzzel, helpt het spel je ook. Als je de puzzel 5 keer hebt laten mislukken, worden de juiste tegels groen als je erop stapt. <br></br><b>Overige Informatie</b><br></br>Redo kostte me 3 maanden om te maken in Unity (ongeveer 40 uur per week) en je kunt het spelen op Windows. <br></br>Klik <a href="https://jmp.sh/663bn7hb" target="_blank" rel="noopener noreferrer"><i>hier</i></a> om het game design document voor Redo te bekijken.</span><br></br>Klik <a href="/gamebuilds/WebGL_Redo/RedoWeb.html"><i>hier</i></a> om Redo zelf uit te proberen. </span><br></br><i>Dit werkt niet op telefoons/tablets.</i>';
+    }
+}
+
+function ChangeLanguageDungeonExplorer()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing english';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing dutch';
+    }
+}
+
+function ChangeLanguageMultiplayerGame()
+{
+    var t = document.getElementById("slideThree");
+    console.log(t.value);
+    if(t.value=="NL")
+    {
+        t.value="EN";
+        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing english';
+    }
+    else if(t.value=="EN")
+    {
+        t.value="NL";
+        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing dutch';
     }
 }
