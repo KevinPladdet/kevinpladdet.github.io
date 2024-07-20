@@ -148,6 +148,8 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("redoDescription").innerHTML = '<span style="font-size:18px;"> Redo is a 3D platformer, where each level grants you a new ability. <br> Can you collect all of them and finish the final level?';
         document.getElementById("DescriptionProjectS").innerHTML = '<span style="font-size:18px;"> Project S is a rhythm game, can you get the S rank?';
         document.getElementById("descriptionWW").innerHTML = '<span style="font-size:18px;"> Whisker Wonderland is a 2D game about herding cats.';
+        document.getElementById("DescriptionMultiplayerGame").innerHTML = '<span style="font-size:18px;"> MultiplayerGame is a project revolved around all of the aspects of multiplayer.';
+        document.getElementById("DescriptionDungeonExplorer").innerHTML = '<span style="font-size:18px;"> Dungeon Explorer is a 3D game where you delve into a dungeon to <br> uncover treasures and defeat monsters.';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -179,7 +181,8 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("redoDescription").innerHTML = '<span style="font-size:18px;"> Redo is een 3D platformer, waarin je in elk level een nieuwe vaardigheid krijgt. <br> Kun jij ze allemaal verzamelen en het laatste level uitspelen?';
         document.getElementById("DescriptionProjectS").innerHTML = '<span style="font-size:18px;"> Project S is een rhythm game, kun jij de S rank behalen?';
         document.getElementById("descriptionWW").innerHTML = '<span style="font-size:18px;"> Whisker Wonderland is een 2D game over katten hoeden.';
-
+        document.getElementById("DescriptionMultiplayerGame").innerHTML = '<span style="font-size:18px;"> MultiplayerGame is een project dat over alle aspecten van multiplayer gaat.';
+        document.getElementById("DescriptionDungeonExplorer").innerHTML = '<span style="font-size:18px;"> Dungeon Explorer is een 3D spel waarin je een kerker induikt om <br> schatten te ontdekken en monsters te verslaan.';
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
         {
@@ -369,12 +372,12 @@ function ChangeLanguageDungeonExplorer()
     if(t.value=="NL")
     {
         t.value="EN";
-        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing english';
+        document.getElementById("dungeonExplorerInfo").innerHTML = '<span style=\"font-weight:normal\"> testing english';
     }
     else if(t.value=="EN")
     {
         t.value="NL";
-        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing dutch';
+        document.getElementById("dungeonExplorerInfo").innerHTML = '<span style=\"font-weight:normal\"> testing dutch';
     }
 }
 
@@ -385,11 +388,11 @@ function ChangeLanguageMultiplayerGame()
     if(t.value=="NL")
     {
         t.value="EN";
-        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing english';
+        document.getElementById("multiplayerGameInfo").innerHTML = '<span style=\"font-weight:normal\"> <b>What\'s the game about?</b><br></br>MultiplayerGame is a project I made to learn how multiplayer works. The goal of this project is to focus on the multiplayer aspect instead of the game, which means I want to make the multiplayer as fine-tuned as possible.<br></br>I started with making the multiplayer work and after that I added more functions. Some examples of these functions are the friends menu, a way to invite friends, multiple lobby types, a color chooser for your player and a ready up system.<br></br><b>Why did I make this project?</b><br></br>I have played a lot of multiplayer games in my life and I have always wondered how they work. Playing a multiplayer game with friends is super fun, so I wanted to try and make one myself. <br></br>At school I had a project where I could learn whatever I wanted as long as it is code related. I knew this was my moment to try out multiplayer. Even if I were to fail I would still gain experience from it.<br></br>At first I wanted to make a full game including multiplayer, but I quickly realised how much effort and time it takes to create a fully working multiplayer system. I then decided I would only focus on the multiplayer aspect and I tried to make it as polished as I could.<br></br><b>How does it work?</b><br></br>I did not know where to start when I began this project, so I did some research on how multiplayer works.<br></br>There is an asset pack on Unity called <a href="https://assetstore.unity.com/packages/tools/network/mirror-129321"target="_blank" rel="noopener noreferrer"><i>Mirror</i></a>, which many people use to set up multiplayer. Another thing you need for multiplayer is <a href="https://github.com/Chykary/FizzySteamworks"target="_blank" rel="noopener noreferrer"><i>Steamworks</i></a>, which is used to communicate with the Steamworks API. Once you have these 2 asset packs installed the fun begins.<br></br>With Steamworks and Mirror you can make it so that you can host servers on a Steam app id. On Steam there is a game called Spacewar, which uses Steam app id 480. Spacewar is a public Steam app id, so anyone can use those servers.<br></br>During development you can use Spacewar\'s id. Once you have published your game on Steam though, you can use your game\'s unique id instead of Spacewar\'s network.<br></br><b>What did I learn?</b><br></br><i>Multiplayer in general</i><br></br>I did not know anything about how multiplayer worked when I started this project.<br></br>During the development of this project I learned how Mirror and Steamworks work. Ofcourse I can not say I am an expert at it, because I am not. I have used it enough to understand how it works, but I still make a lot of mistakes.<br></br>I\'d say the function I am most proud of is the friends menu. It looks awesome and I love the online indicator as well.<br>I had made the user prefab for the lobby menu, so I reused that and changed the ready up part with an invite button. For the online indicator I used a Steamworks function to check if they are online.<br></br><i>Testing with Sandboxie-Plus</i><br></br>At the beginning of my project the only way to test the game was to get someone around me to install it and to open it. They also needed their own steam account, since the game uses Spacewar to host / join lobbies.<br></br>I needed to find a workaround for this and after a lot of research I found out about<a href="https://sandboxie-plus.com/"target="_blank" rel="noopener noreferrer"><i>Sandboxie-Plus</i></a>. With this program you can open any application again without having to permanently install it. After you\'re done with the application, Sandboxie will delete all of the files it used.<br></br>So by using Sandboxie-Plus I managed to have 2 applications of Steam open at the same time, so I could test the multiplayer with my main account and an alt account. This worked perfectly and I never needed another computer again to test out the game.<br></br><b>What\'s next?</b><br></br>  At this current state the multiplayer is done and there are many functions with it. Anyone can host a game or join a game through the lobbies browser or with an invite. <br></br>There are still a couple bugs that need to be fixed, but besides that the project is ready to be turned into a game.<br></br>I don\'t know when I will pick this project up again, but I would probably turn it into a shooter. The color chooser could be turned into a class selector (shotgun, sniper, etc) and since I now know how multiplayer works, I could start working on that.<br></br><b>Other Information</b><br></br>MultiplayerGame took me 3 months to make in Unity and I worked around 12 hours per week on it.<br></br>Before the game looked like it does now, the project had the default unity UI buttons / text / etc.<br>The project then got a complete makeover and I changed the layout for everything. The text got a nice font and I tried to work with a color scheme for the UI.<br></br>I love how it turned out in the end and I\'m really proud of this project in general.<br></br><i>The GitHub repository will not be shared, because it is a fully working multiplayer project that could otherwise be used by others for their own gains.</i>';
     }
     else if(t.value=="EN")
     {
         t.value="NL";
-        document.getElementById("redoInfo").innerHTML = '<span style=\"font-weight:normal\"> testing dutch';
+        document.getElementById("multiplayerGameInfo").innerHTML = '<span style=\"font-weight:normal\"> testing dutch';
     }
 }
