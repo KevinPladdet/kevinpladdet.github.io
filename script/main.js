@@ -7,17 +7,17 @@ function ChangeLanguage()
         t.value="EN";
         document.getElementById("aboutMe").innerHTML  = "<span style=\"font-weight:normal\"> I'm Kevin Pladdet, I’m 19 years old and from the Netherlands. I’m currently following an education about Software Development where I’m learning how to code and how to make games/websites.<br></br>I’m very interested when it comes to game development, I love making games from scratch and seeing how it develops towards a complete game. On this website you can find some projects I’ve made along the way, which you can play if you’d like.";
         document.getElementById("featuredProductsText").innerHTML = "Featured Products";
-        document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is a 3D platformer where your goal is to get the best time possible.'; 
-        document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Soccer with cars, against your friends or alone. Can you score enough goals? ';
-        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is a 2D game where you are climbing a construction site, can you get to the top? ';
+        document.getElementById("suikaGameDescription").innerHTML = '<span style="font-size:18px;"> Suika Game is a game about merging fruits, can you get a watermelon?';
+        document.getElementById("redoDescription").innerHTML = '<span style="font-size:18px;"> Redo is a 3D platformer, where each level grants you a new ability. <br> Can you collect all of them and finish the final level?';
+        document.getElementById("DescriptionProjectS").innerHTML = '<span style="font-size:18px;"> Project S is a rhythm game, can you get the S rank?';
+        document.getElementById("DescriptionMultiplayerGame").innerHTML = '<span style="font-size:18px;"> MultiplayerGame is a project revolved around all of the aspects of multiplayer.';
+        document.getElementById("DescriptionDungeonExplorer").innerHTML = '<span style="font-size:18px;"> Dungeon Explorer is a 3D game where you delve into a dungeon to <br> uncover treasures and defeat monsters.';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is a challenging game that is easy to learn, but hard to master!';
-        document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is a 2D game about a boy who snuck out at night to eat some snacks.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Got something you want to tell me? Send me a message! ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> This is my GitHub page where I share the code of projects I have done.  ';
-        document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is a 2D Top Down Shooter, can you survive?';
-        document.getElementById("contactMe").innerHTML = "Contact Me";
-        document.getElementById("translateButtonMail").innerHTML = "Mail Me";
-        document.getElementById("translateButtonGithub").innerHTML = "GitHub Page";
+        document.getElementById("contactMe").innerHTML = '<span style="font-size:18px;">Contact Me';
+        document.getElementById("translateButtonMail").innerHTML = '<span style="font-size:18px;">Mail Me';
+        document.getElementById("translateButtonGithub").innerHTML = '<span style="font-size:18px;">GitHub Page';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -30,17 +30,17 @@ function ChangeLanguage()
         t.value="NL";
         document.getElementById("aboutMe").innerHTML = "<span style=\"font-weight:normal\"> Mijn naam is Kevin Pladdet. Ik ben 19 jaar oud en ik kom uit Nederland. Op dit moment volg ik de opleiding Software Development, waar ik leer coderen en games/websites te maken. <br> </br> Ik ben erg geïnteresseerd als het gaat om game development. Ik vind het leuk om games vanaf het begin te maken en te zien hoe het ontwikkelt naar een complete game. Op deze website kan je allerlei projecten zien (en spelen) die ik heb gemaakt.";
         document.getElementById("featuredProductsText").innerHTML = "Aanbevolen Projecten";
-        document.getElementById("impactDescription").innerHTML = '<span style="font-size:18px;"> Impact is een 3D Platformer met als doel om de snelste tijd te halen.';
-        document.getElementById("soccarDescription").innerHTML = '<span style="font-size:18px;"> Voetbal met auto\'s, tegen je vrienden of alleen. Kun jij genoeg goals maken? ';
-        document.getElementById("constructionDescription").innerHTML = '<span style="font-size:18px;"> Construction Madness is een 2D spel waar je een bouwplaats beklimt, kan jij de top bereiken? ';
+        document.getElementById("suikaGameDescription").innerHTML = '<span style="font-size:18px;"> Suika Game is een spel over het samenvoegen van fruit. <br>Kun jij een watermeloen krijgen?';
+        document.getElementById("redoDescription").innerHTML = '<span style="font-size:18px;"> Redo is een 3D platformer, waarin je in elk level een nieuwe vaardigheid krijgt. <br> Kun jij ze allemaal verzamelen en het laatste level uitspelen?';
+        document.getElementById("DescriptionProjectS").innerHTML = '<span style="font-size:18px;"> Project S is een rhythm game, kun jij de S rank behalen?';
+        document.getElementById("DescriptionMultiplayerGame").innerHTML = '<span style="font-size:18px;"> MultiplayerGame is een project dat over alle aspecten van multiplayer gaat.';
+        document.getElementById("DescriptionDungeonExplorer").innerHTML = '<span style="font-size:18px;"> Dungeon Explorer is een 3D spel waarin je een kerker induikt om <br> schatten te ontdekken en monsters te verslaan.';
         document.getElementById("fourthDescription").innerHTML = '<span style="font-size:18px;"> Wizard\'s Struggle is een uitdagend spel dat makkelijk te leren is, maar moeilijk te beheersen!';
-        document.getElementById("tmsDescription").innerHTML = '<span style="font-size:18px;"> Timmy\'s Midnight Snack is een 2D spel over een jongen die \'s nachts wegglipt om wat snacks te eten.';
         document.getElementById("emailDescription").innerHTML = '<span style="font-size:18px;"> Wil je me iets vertellen? Stuur me een berichtje!  ';
         document.getElementById("githubDescription").innerHTML = '<span style="font-size:18px;"> Dit is mijn GitHub pagina waar ik de code deel van projecten.';
-        document.getElementById("retroRampageDescription").innerHTML = '<span style="font-size:18px;"> Retro Rampage is een 2D Top Down Shooter, kun jij overleven?';
-        document.getElementById("contactMe").innerHTML = "Neem Contact Met Mij Op";
-        document.getElementById("translateButtonMail").innerHTML = "Mail Mij";
-        document.getElementById("translateButtonGithub").innerHTML = "GitHub Pagina";
+        document.getElementById("contactMe").innerHTML = '<span style="font-size:18px;"> Neem Contact Met Mij Op';
+        document.getElementById("translateButtonMail").innerHTML = '<span style="font-size:18px;">Mail Mij';
+        document.getElementById("translateButtonGithub").innerHTML = '<span style="font-size:18px;">GitHub Pagina';
 
         const collection = document.getElementsByClassName("moreInfoButton");
         for (let i = 0; i < collection.length; i++) 
@@ -177,7 +177,7 @@ function ChangeLanguageFeaturedProducts()
         document.getElementById("furnitureHomepageDescription").innerHTML = '<span style="font-size:18px;"> Dit is een website voor meubels, gemaakt met JavaScript. Bekijk hem <a href="https://kevinpladdet.github.io/furniturehomepagekevinpladdet.github.io/" target="_blank" rel="noopener noreferrer"><i>hier!';
         document.getElementById("vrProjectDescription").innerHTML = '<span style="font-size:18px;"> Dit is een kleine sandbox die voornamelijk is gemaakt om VR uit te proberen.';
         document.getElementById("DescriptionSS").innerHTML = '<span style="font-size:18px;"> ShadeSword is een 3D Action-Stealth-spel waarin stealth slechts een bijzaak is.';
-        document.getElementById("suikaGameDescription").innerHTML = '<span style="font-size:18px;"> Suika Game is een spel over het samenvoegen van fruit. Kun jij een watermeloen krijgen?';
+        document.getElementById("suikaGameDescription").innerHTML = '<span style="font-size:18px;"> Suika Game is een spel over het samenvoegen van fruit. <br>Kun jij een watermeloen krijgen?';
         document.getElementById("redoDescription").innerHTML = '<span style="font-size:18px;"> Redo is een 3D platformer, waarin je in elk level een nieuwe vaardigheid krijgt. <br> Kun jij ze allemaal verzamelen en het laatste level uitspelen?';
         document.getElementById("DescriptionProjectS").innerHTML = '<span style="font-size:18px;"> Project S is een rhythm game, kun jij de S rank behalen?';
         document.getElementById("descriptionWW").innerHTML = '<span style="font-size:18px;"> Whisker Wonderland is een 2D game over katten hoeden.';
