@@ -291,6 +291,11 @@ color: #ffffff;
 border: solid 2px #333333;
 }
 
+#remove-pointer .btnThree,
+#remove-pointer .btnFour {
+  cursor: default;
+}
+
 @media (max-width:410px) /* Phone */
 {
   .aboutMeInfo
