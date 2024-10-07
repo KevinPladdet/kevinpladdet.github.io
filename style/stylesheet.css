@@ -126,14 +126,14 @@ body
 {
   height: 100%;
   background: rgb(39,193,136);
-  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgba(138,154,145,1) 100%);
+  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgba(113, 155, 143) 100%);
 }
 
 .bodyThree
 {
   height: 100vh;
   background: rgb(39,193,136);
-  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgba(138,154,145,1) 100%);
+  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgb(113, 155, 143) 100%);
 }
 
 #videoResize
