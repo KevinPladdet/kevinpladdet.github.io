@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">All Products</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageDungeonExplorer()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/aaB807olj88 " title="AquaMystics Gameplay" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3 id="dungeonExplorerInfo"> <span style="font-weight:normal">
+              <b>What's the game about?</b>
+              <br></br>
+              AquaMystics is a game about managing your fish to make enough money to clean the tank.
+              <br></br>
+              You can buy different fish and each fish has a different price and passive income.
+              Every fish needs food to survive, so you can feed them by clicking left click anywhere in the tank.
+              <br></br>
+              <b>Why did I make this project?</b>
+              <br></br>
+              I made this game to prepare for a school exam, for which I have to create a game. 
+              <br></br>
+              While making AquaMystics I made a <a href="https://jmp.sh/Ju6R4xAc" target="_blank" rel="noopener noreferrer"><i>game design document</i></a> 
+              which contains everything about the game. 
+              <br>
+              It also includes a TDD (technical design document) where I explain how I'm going to code everything.
+              <br></br>
+              I had 3 sprints in total (1 week per sprint) and used Trello to plan everything.
+              <br></br>
+              <b>What did I learn?</b>
+              <br></br>
+              <i>Technical Design Document</i>
+              <br></br>
+              I have never made a TDD before making this project, but it's pretty nice to use. 
+              While I was working in Unity on the game, I knew exactly what to do and how to do it.
+              <br>
+              This is all because I made the GDD/TDD before I created the Unity project.
+              <br></br>
+              My next project will be for the school exam, so it's nice to already have some experience with making a FDD (functional design document) and TDD.
+              <br></br>
+              <i>Permanent Shop</i>
+              <br></br>
+              I learned how to make a permanent shop by using PlayerPrefs to store the currency.
+              This means that if you close and reopen the game you'll still have the permanent currency you earned.
+              <br></br>
+              There are many possibilities on what permanent upgrades to add, but the only thing I added is a background changer.
+              If you buy the background changer, you can choose between 5 backgrounds through a menu.
+              <br></br>
+              I would add more permanent upgrades, but I have stopped developing this game to work on something else.
+              <br>
+              I'm definitely going to add a permanent shop in one of my future projects though, since it's a very cool feature.
+              <br></br>
+              <b>Other Information</b>
+              <br></br>
+              AquaMystics took me 4 weeks to make in Unity (around 12 hours per week) and you can play it on Windows. 
+              <br></br>
+              Click <a href="https://jmp.sh/Ju6R4xAc" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the game design document for AquaMystics.</span>
+              <br></br>
+              Click <a href="https://github.com/KevinPladdet/AquaMystics" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of AquaMystics.</span>
+              <br></br>
+              Click <a href="/gamebuilds/WebGL_AquaMystics/AquaMysticsWeb.html"><i>here</i></a> to try AquaMystics out for yourself. </span>
+              <br></br>
+              <i>This does not work on phones/tablets.</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
