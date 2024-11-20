@@ -191,6 +191,14 @@ body
   min-height: 3.2rem;
 }
 
+.skillsClass
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 
 .btnTwo
@@ -294,6 +302,11 @@ border: solid 2px #333333;
 #remove-pointer .btnThree,
 #remove-pointer .btnFour {
   cursor: default;
+}
+
+.SkillPageContainer{
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width:410px) /* Phone */
@@ -440,9 +453,34 @@ border: solid 2px #333333;
   {
     width: 90%;
   }
+
+  .skillsClass
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 93vw;
+    gap: -10px;
+  }
+
+  .skillsClass > button
+  {
+    height: 6vh;
+  }
+  .skillsHeader
+  {
+    width: 100vw;
+  }
+
+  .SkillPageContainer
+  {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+  }
 }
 
-@media (max-width:1024px) /* iPad / Tablet */
+@media (max-width:1025px) /* iPad / Tablet */
 {
   .textColumnText
   {
@@ -463,9 +501,14 @@ border: solid 2px #333333;
   {
     width: 90%;
   }
+
+  .skillsGap
+  {
+    padding-right: 25px;
+  }
 }
 
-@media (min-width:1050px) and (max-width: 1920px) /* PC / Laptop */
+@media (min-width:1025px) and (max-width: 1920px) /* PC / Laptop */
 {
   .whiteLine
   {
@@ -480,6 +523,11 @@ border: solid 2px #333333;
   .buttonMarginBottom
   {
     margin-bottom: 18px;
+  }
+
+  .skillsGap
+  {
+    padding-right: 25px;
   }
 }
 
