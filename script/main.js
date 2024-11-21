@@ -6,7 +6,7 @@ function ChangeLanguage()
     {
         t.value="EN";
         document.getElementById("aboutMe").innerHTML  = "<span style=\"font-weight:normal\"> I'm Kevin Pladdet, I’m 19 years old and from the Netherlands. I’m currently following an education about Software Development where I’m learning how to code and how to make games/websites.<br></br>I’m very interested when it comes to game development. I love making games from scratch and seeing how it develops towards a complete game. On this website you can find some projects I’ve made along the way, which you can play if you’d like.";
-        document.getElementById("featuredProductsText").innerHTML = "Featured Products";
+        document.getElementById("featuredProjectsText").innerHTML = "Featured Projects";
         document.getElementById("suikaGameDescription").innerHTML = '<span style="font-size:18px;"> Suika Game is a game about merging fruits, can you get a watermelon?';
         document.getElementById("redoDescription").innerHTML = '<span style="font-size:18px;"> Redo is a 3D platformer, where each level grants you a new ability. <br> Can you collect all of them and finish the final level?';
         document.getElementById("DescriptionProjectS").innerHTML = '<span style="font-size:18px;"> Project S is a rhythm game, can you get the S rank?';
@@ -29,7 +29,7 @@ function ChangeLanguage()
     {
         t.value="NL";
         document.getElementById("aboutMe").innerHTML = "<span style=\"font-weight:normal\"> Mijn naam is Kevin Pladdet. Ik ben 19 jaar oud en ik kom uit Nederland. Op dit moment volg ik de opleiding Software Development, waar ik leer coderen en games/websites te maken. <br> </br> Ik ben erg geïnteresseerd als het gaat om game development. Ik vind het leuk om games vanaf het begin te maken en te zien hoe het ontwikkelt naar een complete game. Op deze website kan je allerlei projecten zien (en spelen) die ik heb gemaakt.";
-        document.getElementById("featuredProductsText").innerHTML = "Aanbevolen Projecten";
+        document.getElementById("featuredProjectsText").innerHTML = "Aanbevolen Projecten";
         document.getElementById("suikaGameDescription").innerHTML = '<span style="font-size:18px;"> Suika Game is een spel over het samenvoegen van fruit. <br>Kun jij een watermeloen krijgen?';
         document.getElementById("redoDescription").innerHTML = '<span style="font-size:18px;"> Redo is een 3D platformer, waarin je in elk level een nieuwe vaardigheid krijgt. <br> Kun jij ze allemaal verzamelen en het laatste level uitspelen?';
         document.getElementById("DescriptionProjectS").innerHTML = '<span style="font-size:18px;"> Project S is een rhythm game, kun jij de S rank behalen?';
