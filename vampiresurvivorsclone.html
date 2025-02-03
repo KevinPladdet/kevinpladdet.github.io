@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">All Projects</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageAquaMystics()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/OGDpJxy_q14" title="Vampire Survivors Clone Gameplay" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3 id="aquaMysticsInfo"> <span style="font-weight:normal">
+              <b>What's the game about?</b>
+              <br></br>
+              Inspired by “Vampire Survivors”, which is a survival game with roguelite elements. 
+              <br></br>
+              In this game you can level up by killing enemies and each time you level up you will be rewarded with a weapon or upgrade. 
+              The game gets progressively harder, so death is inevitable. 
+              <br></br>
+              How long can you survive?
+              <br></br>
+              <b>Why did I make this project?</b>
+              <br></br>
+              I made this game for a school exam, for which I have to create a game. 
+              I also had to make game design documents for it and document others playtesting it.
+              <br></br>
+              I started with creating a <a href="https://pastebin.com/1Fhy5sPZ" target="_blank" rel="noopener noreferrer"><i>FDD</i></a> (functional design document) which contains everything about the game.
+              <br></br>
+              After the FDD, I created a <a href="https://pastebin.com/V3X6zbFF" target="_blank" rel="noopener noreferrer"><i>TDD</i></a> (technical design document) where I explain how I'm going to code everything.
+              <br></br>
+              During the exam I let others <a href="https://pastebin.com/4c7Jmuhi" target="_blank" rel="noopener noreferrer"><i>playtest</i></a> the game, which gave me valuable feedback on what I could improve on.
+              <br></br>
+              I had 5 sprints in total (1 week per sprint) and used Trello to plan everything.
+              <br></br>
+              <b>What did I learn?</b>
+              <br></br>
+              <i>Tilemap + Spritesheets</i>
+              <br></br>
+              I've never used a tilemap before, but I knew that I needed it for this game.
+              I also found the spritesheets that the original game used and used them for my game too.
+              <br></br>
+              There was one problem though, the creator of the spritesheets sucked at making spritesheets.
+              The sprites weren't the same height and the background also wasn't transparent.
+              <br></br>
+              Another bad thing was that for objects, he would put a grass background on it.
+              Which means that you can't put the background on a stone floor for example, without removing it manually.
+              It was a lot of effort to remove the backgrounds and to make the sprites work, but I got it done in the end.
+              <br></br>
+              The map in the game is pretty big too, so I'm happy I learned how to use tilemaps instead of placing them manually.
+              <br></br>
+              <i>There are so many more things I could add</i>
+              <br></br>
+              While making the FDD I listed many things that I wanted to add, but knew I didn't have time for.
+              This includes the permanent shop, upgrade system, boss fights, character selection, animations and more weapons/passives.
+              <br></br>
+              I have another game exam after this one, which means I won't have time to add these features.
+              Nonetheless I'm very proud of what I've made so far, it looks really good!
+              <br></br>
+              <b>Other Information</b>
+              <br></br>
+              Vampire Survivors Clone took me 5 weeks to make in Unity (around 12 hours per week) and you can play it on Windows. 
+              <br></br>
+              Click <a href="https://pastebin.com/1Fhy5sPZ" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the functional design document.</span>
+              <br></br>
+              Click <a href="https://pastebin.com/V3X6zbFF" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the technical design document.</span>
+              <br></br>
+              Click <a href="https://pastebin.com/4c7Jmuhi" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the playtesting logs.</span>
+              <br></br>
+              Click <a href="https://github.com/KevinPladdet/Vampire_Survivors_Clone" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of Vampire Survivors Clone.</span>
+              <br></br>
+              Click <a href="/gamebuilds/WebGL_VampireSurvivorsClone/VampireSurvivorsCloneWeb.html"><i>here</i></a> to try Vampire Survivors Clone out for yourself. </span>
+              <br></br>
+              <i>This does not work on phones/tablets.</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
