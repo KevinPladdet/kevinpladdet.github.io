@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">All Projects</a>
+    <a href="#Switch" onclick="document.getElementById('slideThree').click()"><section title=".slideThree">
+        
+      <div id="changeLanguageButton" class="slideThree">
+        <input type="checkbox" value="EN" onclick="ChangeLanguageAquaMystics()" id="slideThree" name="check" checked />
+        <label for="slideThree"></label>
+      </div>
+      
+    </section></a>
+    </a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/ZizwazkvuS4" title="Phantom Watch Gameplay" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3 id="aquaMysticsInfo"> <span style="font-weight:normal">
+              <b>What's the game about?</b>
+              <br></br>
+              Inspired by “I'm on Observation Duty”, which is a game about detecting & banishing anomalies. 
+              <br></br>
+              You are a Phantom Watch employee. Your job is to carefully inspect the facility through the security system.
+              <br>Any paranormal activity must be identified and banished.
+              <br></br>
+              Can you make it through the night?
+              <br></br>
+              <b>Team Exam</b>
+              <br></br>
+              I made this game for a school exam together with 3 friends.
+              For the exam we had to create a game with design documents and also document others playtesting it. 
+              <br></br>
+              We started with creating a <a href="https://linen-mahogany-370.notion.site/FDD-Horror-Game-134bcdff655f80eab6f7ef7f243ab79e" target="_blank" rel="noopener noreferrer"><i>FDD</i></a> (functional design document) which contains everything about the game.
+              <br></br>
+              After the FDD, we created a <a href="https://linen-mahogany-370.notion.site/TDD-Horror-Game-134bcdff655f8009837ae523a625f02a" target="_blank" rel="noopener noreferrer"><i>TDD</i></a> (technical design document) where we explain how we're going to code everything.
+              <br></br>
+              During the exam we let others <a href="https://linen-mahogany-370.notion.site/Playtesting-14cbcdff655f809986dfcd7756a79267" target="_blank" rel="noopener noreferrer"><i>playtest</i></a> the game, which gave us valuable feedback on what we could improve on.
+              <br></br>
+              We had 3 sprints in total (1 week per sprint) and used Notion to plan everything.
+              <br></br>
+              <b>What did I learn?</b>
+              <br></br>
+              <i>Notion</i>
+              <br></br>
+              I have never used Notion before, but one of my friends had some experience with it and said it was good.
+              <br></br>
+              On Notion you can create documents very easily, so we had the FDD and TDD + the kanban board all together.
+              <br>
+              It also includes live updates on changes, so it was easy to work together in Notion.
+              <br></br>
+              The planning went well too, since we first made all the tasks and then divided them.
+              During the project there were some sick days between others and one of their laptops broke down too, but we still managed to create effective solutions for that.  
+              <br></br>
+              <i>Handling merge conflicts</i>
+              <br></br>
+              To prevent merge conflicts, everyone had their own folders for scripts/assets/scenes/etc.
+              This made merge conflicts impossible, unless we started working in eachothers folders.
+              <br></br>
+              We would always ask eachother if it was safe to work in them, so we never got a merge conflict during the entire project.
+              <br></br>
+              <b>Other Information</b>
+              <br></br>
+              Phantom Watch took us 3 weeks to make in Unity (around 15 hours per week) and you can play it on Windows. 
+              <br></br>
+              Click <a href="https://linen-mahogany-370.notion.site/FDD-Horror-Game-134bcdff655f80eab6f7ef7f243ab79e" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the functional design document.</span>
+              <br></br>
+              Click <a href="https://linen-mahogany-370.notion.site/TDD-Horror-Game-134bcdff655f8009837ae523a625f02a" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the technical design document.</span>
+              <br></br>
+              Click <a href="https://linen-mahogany-370.notion.site/Playtesting-14cbcdff655f809986dfcd7756a79267" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the playtesting logs.</span>
+              <br></br>
+              Click <a href="https://github.com/KevinPladdet/Phantom_Watch" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of Phantom Watch.</span>
+              <br></br>
+              The game uses HDRP shaders, so a WebGL build is not possible. You can download and play Phantom Watch yourself by clicking <a href=" https://www.mediafire.com/file/i5bswezc9wwc2u4/Phantom_Watch_0.5.zip/file" target="_blank" rel="noopener noreferrer"><i>here</i></a>.</span>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
