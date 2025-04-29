@@ -244,14 +244,14 @@ color: #ffffff;
 border: solid 2px #ffffff;
 }
 
-.btnThree
+.btnSkillsBackground
 {
 font-family: Roboto, sans-serif;
 font-weight: 0;
 font-size: 14px;
 color: #fff;
-background-color: #333333;
-padding: 10px 30px;
+background-color: lightgrey;
+height: 4.5vh;
 border: solid #333333 2px;
 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
 border-radius: 10px;
@@ -264,14 +264,14 @@ cursor: pointer;
 margin-bottom: 30px;
 }
 
-.btnThree:hover
+.btnSkillsProgress
 {
-transition : 1000ms;
-padding: 10px 30px;
-transform : translateY(-0px);
-background-color: #333333;
-color: #ffffff;
-border: solid 2px #333333;
+  background-color: #333333;
+  height: 4.5vh; 
+  border-radius: 10px;
+  align-content: center;
+  padding-left: 20px;
+  font-weight: normal;
 }
 
 .btnFour
@@ -303,7 +303,7 @@ color: #ffffff;
 border: solid 2px #333333;
 }
 
-#remove-pointer .btnThree,
+#remove-pointer .btnSkillsBackground,
 #remove-pointer .btnFour {
   cursor: default;
 }
