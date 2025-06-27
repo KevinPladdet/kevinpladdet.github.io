@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">All Projects</a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/Z63xtRo-5Sw" title="CS2 Case Simulator Showcase" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3> <span style="font-weight:normal">
+              <b>What's the game about?</b>
+              <br></br>
+              <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank" rel="noopener noreferrer">CS2</a> is a shooter
+              game which contains a case opening system. I found it quite interesting and wanted to try and recreate the case opening system myself.
+              <br></br>
+              There are 10 different cases that can be opened with the same odds as CS2's case opening system.
+              I made everything very simular to CS2 by making the UI, skins and cases look the same.
+              <br></br>
+              In this simulator you can choose which case you want to open and you can then buy keys for it.
+              After unlocking the case you'll get a roll animation which will then end up on your winning skin.
+              <br></br>
+              <b>How does it work?</b>
+              <br></br>
+              Upon unlocking the case 50 weapon showcases will spawn, which each contain a random skin.
+              Every weapon showcase will move towards the left and there is a winline in the middle, whatever skin lands on it will be the winning showcase.
+              The closer the winning showcase is from the winline, the less speed it will have moving left. 
+              Once the winning showcase is on the winline, it will slowly stop moving.
+              The winning showcase has already been determined from the moment you open the case, just like CS2's case openings / gambling in general.
+              <br></br>
+              I used scriptable objects and prefabs to create an easy way to change what case is selected and opened.
+              <br>
+              It's also very easy for me to add new cases and skins to the project because of the efficient use of scriptable objects.
+              <br></br>
+              <b>What did I learn?</b>
+              <br></br>
+              <i>User Interface</i>
+              <br></br>
+              I took the UI very seriously this project and wanted it to look amazing and work perfectly.
+              My goal was to make the UI the same as CS2's layout and color scheme.  
+              This project has the best UI I've ever made before, it's easy to navigate and looks very good. 
+              <br></br>
+              <i>Everything I wanted to add initially</i>
+              <br></br>
+              At the start of the project I planned out a lot of features to add.
+              The following features I never ended up adding, but would be very cool additions to the game: <br></br>
+              - Inventory system that saves what skins you've won in the skins inventory tab <br>
+              - A level system which unlocks a new case each level, opening cases grants xp <br>
+              - Daily special cases which unlock depending on your level <br>
+              - Inventory saves with PlayerPrefs (skins, keys and level) <br>
+              - You can select skins to bet in the upgrader. To upgrade a skin's value you can choose a percentage to hit, the lower the percentage is, the more the skin will be upgraded.
+              <br></br>
+              <b>Other Information</b>
+              <br></br>
+              CS2 Case Simulator took me 2 months to make in Unity and you can play it on Windows.
+              <br></br>
+              Click <a href="https://imgur.com/a/jb7bj5c" target="_blank" rel="noopener noreferrer"><i>here</i></a> to view the Trello.</span>
+              <br></br>
+              Click <a href="https://github.com/KevinPladdet/CS2_Case_Simulator" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of CS2 Case Simulator.</span>
+              <br></br>
+              <i>The assets and sounds from this project are from CS2, which you can play on Steam <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank" rel="noopener noreferrer"><i>here</i></a>.</i>
+              <br></br>
+              Click <a href="/gamebuilds/WebGL_CS2CaseSimulator/CS2CaseSimulatorWeb.html"><i>here</i></a> to try CS2 Case Simulator out for yourself. </span>
+              <br><i>You can enter the konami code in the game to enable the admin menu for a guaranteed gold ;)</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
