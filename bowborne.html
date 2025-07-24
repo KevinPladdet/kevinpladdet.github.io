@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">All Projects</a>
+  </div>
+
+  <br></br>
+
+  <div id="videoResize" class="container">
+    <div class="row">
+      <div class="col text-center p-0">
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/hXrpTLNQw_k" title="Bowborne Showcase" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  &nbsp;
+  <div id="textResize" class="container">
+    <div class="row">
+      <div class="col p-0">
+        <div class="col textWithoutCenter">
+          <h3> <span style="font-weight:normal">
+              <b>What's the game about?</b>
+              <br></br>
+              Bowborne is made as an intake assignment for Breda University of Applied Sciences and is made in C++ with <a href="https://www.sfml-dev.org/" target="_blank" rel="noopener noreferrer"><i>SFML</i></a> and <a href="https://box2d.org/" target="_blank" rel="noopener noreferrer"><i>Box2D</i></a>.
+              <br></br>
+              The goal of Bowborne is to shoot the enemy off the platform, but you have limited arrows so you must carefully shoot them towards the enemy.
+              <br></br>
+              How high of a score can you get?  
+              <br></br>
+              <b>First time using C++</b>
+              <br></br>
+              The requirements of the intake were to create a game in C++ with the theme 'Collide' without using a game engine.
+              <br></br>
+              To get started I watched some youtube videos to get more general familiarity with C++ and would learn the basics like how to 
+              make an image render and move, how to make basic collisions, how to create and modify text, etc.
+              <br></br>
+              I mainly looked things up and checked out the top results, which are websites like Stack Overflow, cppreference and W3Schools. 
+              The documentation websites about SFML and Box2D helped out a ton to learn more about it and to fix problems I had with it. 
+              <br></br>
+              Maybe in a year I will probably think this code looks horrible and that it could be improved in every way, but 
+              for now it works and I learned a lot along the way of creating this game.
+              <br></br>
+              <b>Using Box2D</b>
+              <br></br>
+              To create collisions and physics for my objects I used Box2D, which is also used in Unity for their colliders and physics.
+              The <a href="https://box2d.org/documentation/hello.html" target="_blank" rel="noopener noreferrer"><i>Hello Box2D</i></a> 
+              documentation helped me get started on creating my world and how to create dynamic body's that can interact with each other.
+              <br></br>
+              Creating a decent arrow mechanic was the hardest thing I created during the entire project, because 
+              it was hard to simulate exactly how a real arrow would behave.
+              <br></br>
+              Upon spawning an arrow I applied a force to the tip of the arrow to launch it forwards.
+              It didnt rotate how I wanted it to, so I applied a constant small drag to the back of the arrow to 
+              simulate how an arrow would fall and rotate.
+              <br></br>
+              Click <a href="https://imgur.com/a/eBT3Gxg" target="_blank" rel="noopener noreferrer"><i>here</i></a> to see some videos of the arrows 
+              during development.
+              <br></br>
+              <b>Other Information</b>
+              <br></br>
+              Click <a href="https://github.com/KevinPladdet/SFMLGame" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of Bowborne.</span>
+              <br></br>
+              Click <a href="https://www.mediafire.com/file/ax8r25z9wtnq3qk/Bowborne.zip/file"><i>here</i></a> to download and play Bowborne yourself.</span>
+              <br>
+              <i>(Open README.txt for install instructions and controls)</i>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
