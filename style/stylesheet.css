@@ -129,15 +129,18 @@ body
 .bodyTwo
 {
   height: 100%;
-  background: rgb(39,193,136);
-  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgba(113, 155, 143) 100%);
+  /*background: rgb(39,193,136);
+  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgba(113, 155, 143) 100%);*/
+  background: linear-gradient(90deg, rgba(134,222,183,1) 0%, rgba(99, 185, 149) 100%);
 }
 
 .bodyThree
 {
   height: 100vh;
-  background: rgb(39,193,136);
-  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgb(113, 155, 143) 100%);
+  /*background: rgb(39,193,136);
+  background: linear-gradient(90deg, rgba(39,193,136,1) 0%, rgb(113, 155, 143) 100%);*/
+  background: linear-gradient(90deg, rgba(134,222,183,1) 0%, rgba(99, 185, 149) 100%);
+
 }
 
 #videoResize
@@ -179,9 +182,10 @@ body
   margin-bottom: 0px;
 }
 
-.text-center {
+.text-center 
+{
   border: 3px solid rgb(0, 0, 0);
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .textWithoutCenter
@@ -189,6 +193,12 @@ body
   border: 3px solid rgb(0, 0, 0);
   border-radius: 5px 5px 5px 5px;
   padding: 10px;
+}
+
+.image-border
+{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px 5px 5px 5px;
 }
 
 .itemtext p{
@@ -201,6 +211,12 @@ body
   justify-content: center;
   flex-direction: column;
   padding-top: 10px;
+}
+
+.greyBackground
+{
+  background-color: #333;
+  color: white;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
@@ -534,18 +550,3 @@ border: solid 2px #333333;
     padding-right: 25px;
   }
 }
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-  
