@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style/stylesheet.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="bodyTwo">
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a class="active" href="featured.html">All Projects</a>
+  </div>
+
+  <br></br>
+  <div class="row"></div>
+    <div id="videoResize" class="container">
+      <div class="row">
+        <div class="col image-border p-0">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/r2q888ExTas" title="Viridian Serpent Showcase" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp;
+    <div id="textResize" class="container">
+      <div class="row">
+        <div class="col p-0">
+          <div class="col textWithoutCenter">
+            <h3> <span style="font-weight:normal">
+                <b>Ray Tracing Renderer with playable Snake game</b>
+                <br></br>
+                Viridian Serpent is a voxel-based ray tracer built on the CPU, featuring a playable Snake game integrated into the renderer.
+                <br></br>
+                Rendering Features: <br>
+                - Support for point lights, spot lights and area lights <br>
+                - Progressive rendering with an accumulator to reduce noice gradually over time <br>
+                - Reprojection: Blends previous frame with current frame to reduce noise <br>
+                - Material support: Roughness, IOR, Specular, Metallic and Transparent <br>
+                - Supports loading in '.vox' and '.bin' assets <br>
+                - Ray traced Spheres
+                <br></br>
+                The Snake game is integrated into the renderer and contains smooth grid movement, background music, sound effects, visual effects and a cinematic camera spline which showcases the game.
+                <br></br>
+                I once again used ImGui to create a <a href="https://imgur.com/a/85AIb2s" target="_blank" rel="noopener noreferrer"><i>debug menu</i></a> that allows real time interaction with the scene. 
+                This includes adding / modifying / deleting voxels, lights and spheres, as well as tweaking rendering and gameplay variables.
+                <br></br>
+                <b>Other Information</b>
+                <br></br>
+                Click <a href="https://github.com/KevinPladdet/Viridian_Serpent" target="_blank" rel="noopener noreferrer"><i>here</i></a> to go to the GitHub page of Viridian Serpent.</span>
+                <br></br>
+                Click <a href="https://www.mediafire.com/file/89oe4wup99yjz60/Viridian_Serpent.zip/file" target="_blank" rel="noopener noreferrer"><i>here</i></a> to download and try out Viridian Serpent yourself.</span>
+                <br>
+                <i>(Open README.txt for install instructions and controls)</i>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  <br></br>
+</body>
+<script src="script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
