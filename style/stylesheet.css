@@ -4,6 +4,16 @@ body
   padding-top: 80px;
 }
 
+a:not(.btnTwo):not(.topnav):not(.topnav a)
+{
+  color: #1be09f;
+}
+
+b
+{
+  color: #1be09f;
+}
+
 .textColumn
 {
   border: 3px solid rgb(0, 0, 0);
@@ -50,19 +60,19 @@ body
   text-align: center;
   padding: 30px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
   
 .topnav a:hover 
 {
   background-color: #262626;
-  color: white;
+  color: #59e9b9;
 }
   
 .topnav a.active
 {
   background-color: #434343;
-  color: white;
+  color: #1be09f;
 }
 
 .slideThree 
@@ -214,6 +224,11 @@ body
   color: white;
 }
 
+.greenText
+{
+  color: #1be09f;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 
 .btnTwo
@@ -251,8 +266,8 @@ transition : 1000ms;
 padding: 10px 0px;
 transform : translateY(-0px);
 background-color: rgba(255, 255, 255, 0);
-color: #ffffff;
-border: solid 2px #ffffff;
+color: #1be09f;
+border: solid 2px #1be09f;
 }
 
 .btnSkillsBackground
@@ -277,7 +292,7 @@ margin-bottom: 30px;
 
 .btnSkillsProgress
 {
-  background-color: #333333;
+  background: linear-gradient(90deg,rgb(60, 118, 99) 0%, rgb(33, 146, 110) 51%, rgb(23, 172, 122)) 100%;
   height: 4.5vh; 
   border-radius: 10px;
   align-content: center;
@@ -290,7 +305,7 @@ margin-bottom: 30px;
 font-family: Roboto, sans-serif;
 font-weight: 0;
 font-size: 50px;
-color: #fff;
+color: #1be09f;
 background-color: #424242;
 padding: 10px 30px;
 border: solid #262626 3px;
@@ -310,7 +325,7 @@ transition : 1000ms;
 padding: 10px 30px;
 transform : translateY(-0px);
 background-color: #424242;
-color: #ffffff;
+color: #1be09f;
 border: solid #262626 3px;
 }
 
